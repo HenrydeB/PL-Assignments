@@ -1,0 +1,1694 @@
+2023.10.22 13:45:20 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.22 13:45:22 WARN  Build server is not auto-connectable.
+2023.10.22 13:45:26 INFO  running 'C:\Program Files\Amazon Corretto\jdk17.0.8_8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.6 -jar C:\Users\henry\AppData\Local\Temp\metals12399416560222753285\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.22 13:45:28 INFO  [info] Updated file C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\build.properties: set sbt.version to 1.9.6
+2023.10.22 13:45:28 INFO  [info] welcome to sbt 1.9.6 (Amazon.com Inc. Java 17.0.8.1)
+2023.10.22 13:45:32 INFO  [info] loading settings for project hw5-6-7-build-build from metals.sbt ...
+2023.10.22 13:45:34 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\project
+2023.10.22 13:45:38 WARN  no build target for: C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\src\main\scala\fp2.scala
+2023.10.22 13:45:38 INFO  [info] loading settings for project hw5-6-7-build from metals.sbt ...
+2023.10.22 13:45:38 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project
+2023.10.22 13:45:47 INFO  [success] Generated .bloop\hw5-6-7-build.json
+2023.10.22 13:45:47 INFO  [success] Total time: 8 s, completed Oct 22, 2023, 1:45:47 PM
+2023.10.22 13:45:50 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\src\main\scala\fp2.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.22 13:45:52 INFO  [info] loading settings for project hw5-6-7 from build.sbt ...
+2023.10.22 13:45:52 INFO  [info] set current project to CSC447 (in build file:/C:/Users/henry/source/repos/ProgrammingLanguages/hw5-6-7/)
+2023.10.22 13:45:55 INFO  [success] Generated .bloop\hw5-6-7.json
+2023.10.22 13:45:55 INFO  [success] Generated .bloop\hw5-6-7-test.json
+2023.10.22 13:45:55 INFO  [success] Total time: 2 s, completed Oct 22, 2023, 1:45:56 PM
+2023.10.22 13:45:56 INFO  time: ran 'sbt bloopInstall' in 29s
+2023.10.22 13:45:56 INFO  Attempting to connect to the build server...
+2023.10.22 13:45:56 INFO  time: code lens generation in 17s
+2023.10.22 13:45:56 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 13:45:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 13:45:56 INFO  Attempting to connect to the build server...
+2023.10.22 13:45:56 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 13:45:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 13:45:56 INFO  time: Connected to build server in 1.01s
+2023.10.22 13:45:57 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.22 13:45:57 INFO  time: Imported build in 0.12s
+2023.10.22 13:46:05 INFO  time: indexed workspace in 7.86s
+2023.10.22 13:46:05 INFO  compiling hw5-6-7 (3 scala sources)
+2023.10.22 13:46:08 INFO  compiling hw5-6-7-test (4 scala sources)
+2023.10.22 13:46:08 INFO  time: compiled hw5-6-7 in 3.01s
+2023.10.22 13:46:15 INFO  time: compiled hw5-6-7-test in 7.24s
+Oct 22, 2023 2:10:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2023.10.22 14:11:38 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:11:41 INFO  time: compiled hw5-6-7 in 3.44s
+2023.10.22 14:11:53 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:11:53 INFO  time: compiled hw5-6-7 in 0.14s
+2023.10.22 14:12:01 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:12:01 INFO  time: compiled hw5-6-7 in 0.49s
+2023.10.22 14:12:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 14:12:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 14:12:19 INFO  Starting debug proxy for [fp2tests(EX01 - map)]
+2023.10.22 14:12:19 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53042 .
+2023.10.22 14:12:19 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 14:12:20 INFO  Closing debug server tcp://0.0.0.0:53038
+2023.10.22 14:12:20 INFO  Canceling debug proxy for [fp2tests(EX01 - map)]
+Oct 22, 2023 2:12:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+Oct 22, 2023 2:12:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 240
+Oct 22, 2023 2:12:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 241
+Oct 22, 2023 2:15:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_14-15-03-552.md
+Oct 22, 2023 2:15:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+2023.10.22 14:17:26 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:17:26 INFO  time: compiled hw5-6-7 in 0.84s
+2023.10.22 14:17:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 14:17:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 14:17:37 INFO  Starting debug proxy for [fp2tests(EX02 - filter)]
+2023.10.22 14:17:37 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53163 .
+2023.10.22 14:17:37 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 14:17:39 INFO  Canceling debug proxy for [fp2tests(EX02 - filter)]
+2023.10.22 14:17:39 INFO  Closing debug server tcp://0.0.0.0:53159
+Oct 22, 2023 2:40:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_14-40-28-404.md
+2023.10.22 14:44:14 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:44:15 INFO  time: compiled hw5-6-7 in 1.09s
+2023.10.22 14:44:35 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:44:35 INFO  time: compiled hw5-6-7 in 0.75s
+2023.10.22 14:44:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 14:44:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 14:44:49 INFO  Starting debug proxy for [fp2tests(EX03 - append)]
+2023.10.22 14:44:50 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53734 .
+2023.10.22 14:44:50 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 14:44:51 INFO  Canceling debug proxy for [fp2tests(EX03 - append)]
+2023.10.22 14:44:51 INFO  Closing debug server tcp://0.0.0.0:53730
+Oct 22, 2023 2:52:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_14-52-30-217.md
+2023.10.22 14:53:28 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:53:30 INFO  time: compiled hw5-6-7 in 1.52s
+2023.10.22 14:54:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 14:54:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 14:54:06 INFO  Starting debug proxy for [fp2tests(EX04 - flatten)]
+2023.10.22 14:54:06 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:54036 .
+2023.10.22 14:54:06 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 14:54:07 INFO  Canceling debug proxy for [fp2tests(EX04 - flatten)]
+2023.10.22 14:54:07 INFO  Closing debug server tcp://0.0.0.0:54032
+Oct 22, 2023 2:55:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_14-55-09-612.md
+2023.10.22 14:59:12 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:59:14 INFO  time: compiled hw5-6-7 in 2.14s
+2023.10.22 14:59:44 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:59:44 INFO  time: compiled hw5-6-7 in 0.52s
+2023.10.22 14:59:55 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 14:59:55 INFO  time: compiled hw5-6-7 in 0.42s
+2023.10.22 15:00:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 15:00:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 15:00:07 INFO  Starting debug proxy for [fp2tests(EX05 - foldLeft)]
+2023.10.22 15:00:07 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:54190 .
+2023.10.22 15:00:07 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 15:00:08 INFO  Canceling debug proxy for [fp2tests(EX05 - foldLeft)]
+2023.10.22 15:00:08 INFO  Closing debug server tcp://0.0.0.0:54186
+Oct 22, 2023 3:00:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1408
+Oct 22, 2023 3:00:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_15-00-23-045.md
+2023.10.22 15:01:57 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 15:01:57 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.22 15:02:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 15:02:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 15:02:07 INFO  Starting debug proxy for [fp2tests(EX06 - foldRight)]
+2023.10.22 15:02:08 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:54232 .
+2023.10.22 15:02:08 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 15:02:09 INFO  Canceling debug proxy for [fp2tests(EX06 - foldRight)]
+2023.10.22 15:02:09 INFO  Closing debug server tcp://0.0.0.0:54228
+Oct 22, 2023 3:04:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_15-04-23-164.md
+2023.10.22 16:59:28 INFO  time: code lens generation in 1.81s
+Oct 22, 2023 5:03:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1888
+Oct 22, 2023 5:05:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1926
+2023.10.22 17:07:38 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 17:07:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 17:07:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.22 17:07:39 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 17:07:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 17:09:20 INFO  Shutting down server
+2023.10.22 17:09:20 INFO  shutting down Metals
+2023.10.22 17:09:20 INFO  Shut down connection with build server.
+2023.10.22 17:09:20 INFO  Shut down connection with build server.
+Oct 22, 2023 5:09:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.22 17:09:20 INFO  Cancelling compilation on Bloop server
+Oct 22, 2023 5:09:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.10.22 17:09:20 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.10.22 17:09:20 INFO  Exiting server
+2023.10.22 17:09:55 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.22 17:09:58 INFO  Attempting to connect to the build server...
+2023.10.22 17:09:58 INFO  skipping build import with status 'Installed'
+2023.10.22 17:09:58 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 17:09:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 17:09:58 INFO  Attempting to connect to the build server...
+2023.10.22 17:09:58 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 17:09:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 17:09:58 INFO  time: Connected to build server in 0.5s
+2023.10.22 17:09:58 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.22 17:09:59 INFO  time: Imported build in 0.2s
+2023.10.22 17:10:04 INFO  time: indexed workspace in 5.4s
+2023.10.22 17:10:04 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:10:09 INFO  time: compiled hw5-6-7 in 4.54s
+2023.10.22 17:10:10 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:10:10 INFO  time: compiled hw5-6-7 in 0.76s
+2023.10.22 17:10:17 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:10:17 INFO  time: compiled hw5-6-7 in 0.99s
+Oct 22, 2023 5:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.10.22 17:10:57 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:10:57 INFO  time: compiled hw5-6-7 in 0.68s
+2023.10.22 17:11:33 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:11:33 INFO  time: compiled hw5-6-7 in 0.42s
+2023.10.22 17:14:04 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:14:04 INFO  time: compiled hw5-6-7 in 0.63s
+2023.10.22 17:14:46 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:14:46 INFO  time: compiled hw5-6-7 in 0.21s
+2023.10.22 17:15:04 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:15:04 INFO  time: compiled hw5-6-7 in 0.34s
+2023.10.22 17:15:38 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:15:38 INFO  time: compiled hw5-6-7 in 0.37s
+2023.10.22 17:16:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:16:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:16:06 INFO  Starting debug proxy for [fp2tests()]
+2023.10.22 17:16:07 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56580 .
+2023.10.22 17:16:07 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:16:08 INFO  Closing debug server tcp://0.0.0.0:56576
+2023.10.22 17:16:08 INFO  Canceling debug proxy for [fp2tests()]
+Oct 22, 2023 5:21:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 463
+2023.10.22 17:22:35 INFO  Shutting down server
+2023.10.22 17:22:35 INFO  shutting down Metals
+2023.10.22 17:22:35 INFO  Shut down connection with build server.
+2023.10.22 17:22:35 INFO  Shut down connection with build server.
+2023.10.22 17:22:35 INFO  Exiting server
+2023.10.22 17:23:12 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.22 17:23:15 INFO  Attempting to connect to the build server...
+2023.10.22 17:23:15 INFO  skipping build import with status 'Installed'
+2023.10.22 17:23:15 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 17:23:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 17:23:15 INFO  Attempting to connect to the build server...
+2023.10.22 17:23:15 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.22 17:23:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.22 17:23:15 INFO  time: Connected to build server in 0.47s
+2023.10.22 17:23:15 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.22 17:23:21 INFO  time: indexed workspace in 5.5s
+Oct 22, 2023 5:29:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_17-29-14-412.md
+Oct 22, 2023 5:29:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Oct 22, 2023 5:29:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+Oct 22, 2023 5:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+Oct 22, 2023 5:32:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 305
+2023.10.22 17:32:17 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:32:19 INFO  time: compiled hw5-6-7 in 2.16s
+Oct 22, 2023 5:32:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 380
+Oct 22, 2023 5:32:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 384
+2023.10.22 17:32:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:32:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:32:41 INFO  Starting debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:32:42 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56972 .
+2023.10.22 17:32:42 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:32:43 INFO  Closing debug server tcp://0.0.0.0:56968
+2023.10.22 17:32:43 INFO  Canceling debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:33:17 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:33:17 INFO  time: compiled hw5-6-7 in 0.48s
+2023.10.22 17:33:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:33:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:33:28 INFO  Starting debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:33:29 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57002 .
+2023.10.22 17:33:29 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:33:30 INFO  Canceling debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:33:30 INFO  Closing debug server tcp://0.0.0.0:56998
+2023.10.22 17:34:51 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:34:51 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.22 17:35:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:35:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:35:24 INFO  Starting debug proxy for [fp2tests(EX01 - map)]
+2023.10.22 17:35:24 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57038 .
+2023.10.22 17:35:24 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:35:26 INFO  Canceling debug proxy for [fp2tests(EX01 - map)]
+2023.10.22 17:35:26 INFO  Closing debug server tcp://0.0.0.0:57034
+2023.10.22 17:35:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:35:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:35:32 INFO  Starting debug proxy for [fp2tests(EX02 - filter)]
+2023.10.22 17:35:32 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57051 .
+2023.10.22 17:35:32 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:35:34 INFO  Canceling debug proxy for [fp2tests(EX02 - filter)]
+2023.10.22 17:35:34 INFO  Closing debug server tcp://0.0.0.0:57047
+2023.10.22 17:35:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:35:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:35:41 INFO  Starting debug proxy for [fp2tests(EX03 - append)]
+2023.10.22 17:35:41 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57076 .
+2023.10.22 17:35:41 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:35:42 INFO  Canceling debug proxy for [fp2tests(EX03 - append)]
+2023.10.22 17:35:43 INFO  Closing debug server tcp://0.0.0.0:57072
+2023.10.22 17:36:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:36:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:36:22 INFO  Starting debug proxy for [fp2tests(EX04 - flatten)]
+2023.10.22 17:36:22 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57096 .
+2023.10.22 17:36:22 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:36:23 INFO  Canceling debug proxy for [fp2tests(EX04 - flatten)]
+2023.10.22 17:36:23 INFO  Closing debug server tcp://0.0.0.0:57092
+2023.10.22 17:36:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:36:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:36:58 INFO  Starting debug proxy for [fp2tests(EX05 - foldLeft)]
+2023.10.22 17:36:59 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57110 .
+2023.10.22 17:36:59 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:37:00 INFO  Closing debug server tcp://0.0.0.0:57106
+2023.10.22 17:37:00 INFO  Canceling debug proxy for [fp2tests(EX05 - foldLeft)]
+2023.10.22 17:37:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:37:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:37:07 INFO  Starting debug proxy for [fp2tests(EX06 - foldRight)]
+2023.10.22 17:37:07 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57137 .
+2023.10.22 17:37:07 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:37:08 INFO  Closing debug server tcp://0.0.0.0:57133
+2023.10.22 17:37:08 INFO  Canceling debug proxy for [fp2tests(EX06 - foldRight)]
+2023.10.22 17:37:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:37:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:37:15 INFO  Starting debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:37:18 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57151 .
+2023.10.22 17:37:18 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:37:20 INFO  Canceling debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:37:20 INFO  Closing debug server tcp://0.0.0.0:57147
+Oct 22, 2023 5:38:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 509
+2023.10.22 17:38:54 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:38:54 INFO  time: compiled hw5-6-7 in 0.57s
+2023.10.22 17:39:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:39:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:39:02 INFO  Starting debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:39:02 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57188 .
+2023.10.22 17:39:02 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:39:03 INFO  Closing debug server tcp://0.0.0.0:57184
+2023.10.22 17:39:03 INFO  Canceling debug proxy for [fp2tests(EX07 - joinTerminateRight)]
+2023.10.22 17:39:11 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:39:11 INFO  time: compiled hw5-6-7 in 0.16s
+2023.10.22 17:39:33 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:39:33 INFO  time: compiled hw5-6-7 in 0.12s
+2023.10.22 17:39:45 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:39:45 INFO  time: compiled hw5-6-7 in 0.12s
+Oct 22, 2023 5:40:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_17-40-28-167.md
+2023.10.22 17:43:55 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:43:55 INFO  time: compiled hw5-6-7 in 0.35s
+2023.10.22 17:44:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:44:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:44:05 INFO  Starting debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:44:05 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57301 .
+2023.10.22 17:44:05 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:44:07 INFO  Canceling debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:44:07 INFO  Closing debug server tcp://0.0.0.0:57297
+2023.10.22 17:44:45 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:44:45 INFO  time: compiled hw5-6-7 in 0.44s
+2023.10.22 17:44:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:44:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:44:57 INFO  Starting debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:44:57 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57333 .
+2023.10.22 17:44:57 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:44:59 INFO  Canceling debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:44:59 INFO  Closing debug server tcp://0.0.0.0:57329
+2023.10.22 17:45:46 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:45:46 INFO  time: compiled hw5-6-7 in 0.28s
+2023.10.22 17:45:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:45:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:45:53 INFO  Starting debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:45:54 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57366 .
+2023.10.22 17:45:54 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:45:55 INFO  Canceling debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:45:55 INFO  Closing debug server tcp://0.0.0.0:57359
+2023.10.22 17:49:00 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:49:00 INFO  time: compiled hw5-6-7 in 0.25s
+2023.10.22 17:49:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:49:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:49:07 INFO  Starting debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:49:08 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57410 .
+2023.10.22 17:49:08 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:49:09 INFO  Canceling debug proxy for [fp2tests(EX08 - joinTerminateLeft)]
+2023.10.22 17:49:09 INFO  Closing debug server tcp://0.0.0.0:57406
+Oct 22, 2023 5:51:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_17-51-36-105.md
+Oct 22, 2023 5:51:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1284
+Oct 22, 2023 5:51:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1285
+2023.10.22 17:54:21 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:54:21 INFO  time: compiled hw5-6-7 in 0.38s
+2023.10.22 17:54:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:54:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:54:30 INFO  Starting debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:54:31 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57560 .
+2023.10.22 17:54:31 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:54:32 INFO  Canceling debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:54:32 INFO  Closing debug server tcp://0.0.0.0:57542
+2023.10.22 17:55:49 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:55:49 INFO  time: compiled hw5-6-7 in 0.48s
+2023.10.22 17:55:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:55:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:55:56 INFO  Starting debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:55:57 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57627 .
+2023.10.22 17:55:57 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:55:58 INFO  Canceling debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:55:58 INFO  Closing debug server tcp://0.0.0.0:57620
+Oct 22, 2023 5:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1514
+2023.10.22 17:56:17 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:56:17 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.22 17:56:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:56:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:56:24 INFO  Starting debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:56:24 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57648 .
+2023.10.22 17:56:24 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:56:26 INFO  Canceling debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:56:26 INFO  Closing debug server tcp://0.0.0.0:57644
+2023.10.22 17:57:00 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:57:00 INFO  time: compiled hw5-6-7 in 0.27s
+2023.10.22 17:57:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:57:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:57:08 INFO  Starting debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:57:09 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57679 .
+2023.10.22 17:57:09 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:57:10 INFO  Canceling debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:57:10 INFO  Closing debug server tcp://0.0.0.0:57675
+2023.10.22 17:58:27 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 17:58:27 INFO  time: compiled hw5-6-7 in 0.32s
+2023.10.22 17:58:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 17:58:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 17:58:34 INFO  Starting debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:58:34 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57715 .
+2023.10.22 17:58:34 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 17:58:36 INFO  Canceling debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.22 17:58:36 INFO  Closing debug server tcp://0.0.0.0:57711
+Oct 22, 2023 6:00:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_18-00-55-205.md
+Oct 22, 2023 6:04:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1998
+Oct 22, 2023 6:04:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-22\r_compiler-error_(hw5-6-7)_18-04-48-192.md
+2023.10.22 18:06:18 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 18:06:19 INFO  time: compiled hw5-6-7 in 1.09s
+2023.10.22 18:06:21 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 18:06:21 INFO  time: compiled hw5-6-7 in 0.45s
+Oct 22, 2023 6:06:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$startTestSuite$4(DebugProvider.scala:674)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.22 18:07:26 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.22 18:07:26 INFO  time: compiled hw5-6-7 in 0.4s
+2023.10.22 18:07:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 18:07:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 18:07:35 INFO  Starting debug proxy for [fp2tests(EX10 - firstIndexNumGreaterOrEqual)]
+2023.10.22 18:07:35 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57982 .
+2023.10.22 18:07:35 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 18:07:37 INFO  Canceling debug proxy for [fp2tests(EX10 - firstIndexNumGreaterOrEqual)]
+2023.10.22 18:07:37 INFO  Closing debug server tcp://0.0.0.0:57978
+2023.10.22 18:07:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 18:07:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 18:07:56 INFO  Starting debug proxy for [fp3tests();fp2tests();fp1tests()]
+2023.10.22 18:07:56 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58000 .
+2023.10.22 18:07:56 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 18:07:58 INFO  Canceling debug proxy for [fp3tests();fp2tests();fp1tests()]
+2023.10.22 18:07:58 INFO  Closing debug server tcp://0.0.0.0:57996
+2023.10.22 18:08:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.22 18:08:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.22 18:08:11 INFO  Starting debug proxy for [fp2tests()]
+2023.10.22 18:08:11 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58014 .
+2023.10.22 18:08:11 INFO  Attaching to debuggee VM succeeded.
+2023.10.22 18:08:13 INFO  Canceling debug proxy for [fp2tests()]
+2023.10.22 18:08:13 INFO  Closing debug server tcp://0.0.0.0:58010
+Oct 23, 2023 12:31:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2421
+Oct 23, 2023 12:31:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2422
+2023.10.23 12:31:50 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.23 12:31:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 12:31:51 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.23 12:31:51 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.23 12:31:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 12:33:33 INFO  Shutting down server
+2023.10.23 12:33:33 INFO  shutting down Metals
+2023.10.23 12:33:33 INFO  Shut down connection with build server.
+2023.10.23 12:33:33 INFO  Shut down connection with build server.
+Oct 23, 2023 12:33:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+Oct 23, 2023 12:33:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.10.23 12:33:33 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.10.23 12:33:33 INFO  Cancelling compilation on Bloop server
+2023.10.23 12:33:33 INFO  Exiting server
+2023.10.23 12:34:16 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.23 12:34:17 INFO  Attempting to connect to the build server...
+2023.10.23 12:34:17 INFO  skipping build import with status 'Installed'
+2023.10.23 12:34:17 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.23 12:34:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 12:34:17 INFO  Attempting to connect to the build server...
+2023.10.23 12:34:17 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.23 12:34:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 12:34:17 INFO  time: Connected to build server in 0.6s
+2023.10.23 12:34:17 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.23 12:34:18 INFO  time: Imported build in 0.25s
+2023.10.23 12:34:24 INFO  time: indexed workspace in 5.74s
+2023.10.23 12:34:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.23 12:34:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.23 12:35:00 INFO  Starting debug proxy for [fp2tests()]
+2023.10.23 12:35:01 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56612 .
+2023.10.23 12:35:01 INFO  Attaching to debuggee VM succeeded.
+2023.10.23 12:35:02 INFO  Closing debug server tcp://0.0.0.0:56608
+2023.10.23 12:35:02 INFO  Canceling debug proxy for [fp2tests()]
+2023.10.23 12:35:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.23 12:35:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.23 12:35:14 INFO  Starting debug proxy for [fp2tests()]
+2023.10.23 12:35:14 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56634 .
+2023.10.23 12:35:14 INFO  Attaching to debuggee VM succeeded.
+2023.10.23 12:35:16 INFO  Canceling debug proxy for [fp2tests()]
+2023.10.23 12:35:16 INFO  Closing debug server tcp://0.0.0.0:56630
+Oct 23, 2023 12:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2023.10.23 12:37:35 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.23 12:37:37 INFO  time: compiled hw5-6-7 in 2.84s
+2023.10.23 12:37:49 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.23 12:37:49 INFO  time: compiled hw5-6-7 in 0.36s
+2023.10.23 12:37:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.23 12:37:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.23 12:37:59 INFO  Starting debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.23 12:37:59 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56901 .
+2023.10.23 12:37:59 INFO  Attaching to debuggee VM succeeded.
+2023.10.23 12:38:01 INFO  Canceling debug proxy for [fp2tests(EX09 - firstNumGreaterOrEqual)]
+2023.10.23 12:38:01 INFO  Closing debug server tcp://0.0.0.0:56897
+2023.10.24 18:55:10 INFO  Shutting down server
+2023.10.24 18:55:10 INFO  shutting down Metals
+2023.10.24 20:20:26 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.24 20:20:27 INFO  Attempting to connect to the build server...
+2023.10.24 20:20:27 INFO  skipping build import with status 'Installed'
+2023.10.24 20:20:27 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.24 20:20:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 20:20:28 INFO  Attempting to connect to the build server...
+2023.10.24 20:20:28 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.24 20:20:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 20:20:28 INFO  time: Connected to build server in 1.82s
+2023.10.24 20:20:28 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.24 20:20:28 INFO  time: Imported build in 0.34s
+2023.10.24 20:20:40 INFO  time: indexed workspace in 10s
+2023.10.25 18:27:16 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.25 18:27:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 18:27:17 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.25 18:27:17 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.25 18:27:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Oct 25, 2023 6:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+Oct 25, 2023 6:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+Oct 25, 2023 6:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+2023.10.25 18:30:30 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.25 18:30:33 INFO  time: compiled hw5-6-7 in 2.91s
+2023.10.25 18:34:32 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.25 18:34:34 INFO  time: compiled hw5-6-7 in 1.73s
+2023.10.25 18:35:07 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.25 18:35:07 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.25 18:35:12 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.25 18:35:12 INFO  time: compiled hw5-6-7 in 0.67s
+2023.10.25 18:55:41 INFO  Shutting down server
+2023.10.25 18:55:41 INFO  shutting down Metals
+2023.10.25 18:55:41 INFO  Shut down connection with build server.
+2023.10.25 18:55:41 INFO  Shut down connection with build server.
+Oct 25, 2023 6:55:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+Oct 25, 2023 6:55:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.25 18:55:41 INFO  Cancelling compilation on Bloop server
+2023.10.25 18:55:41 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.10.25 18:55:42 INFO  Exiting server
+2023.10.28 19:45:38 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.28 19:45:39 INFO  Attempting to connect to the build server...
+2023.10.28 19:45:39 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.28 19:45:39 INFO  skipping build import with status 'Installed'
+2023.10.28 19:45:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.28 19:45:40 INFO  Attempting to connect to the build server...
+2023.10.28 19:45:40 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.28 19:45:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.28 19:45:40 INFO  time: Connected to build server in 1.47s
+2023.10.28 19:45:40 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.28 19:45:40 INFO  time: Imported build in 0.47s
+2023.10.28 19:45:47 INFO  time: indexed workspace in 6.21s
+Oct 28, 2023 7:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Oct 28, 2023 7:51:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+Oct 28, 2023 7:51:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 268
+2023.10.28 19:51:41 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:51:43 INFO  time: compiled hw5-6-7 in 2.11s
+2023.10.28 19:51:45 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:51:45 INFO  time: compiled hw5-6-7 in 0.64s
+2023.10.28 19:51:50 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:51:50 INFO  time: compiled hw5-6-7 in 0.5s
+Oct 28, 2023 7:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$startTestSuite$4(DebugProvider.scala:674)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.28 19:52:11 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:52:11 INFO  time: compiled hw5-6-7 in 0.55s
+Oct 28, 2023 7:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$startTestSuite$4(DebugProvider.scala:674)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.28 19:52:29 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:52:29 INFO  time: compiled hw5-6-7 in 0.57s
+2023.10.28 19:52:37 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:52:37 INFO  time: compiled hw5-6-7 in 0.49s
+2023.10.28 19:53:03 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:53:03 INFO  time: compiled hw5-6-7 in 0.2s
+2023.10.28 19:54:12 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:54:12 INFO  time: compiled hw5-6-7 in 0.25s
+2023.10.28 19:54:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.28 19:54:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.28 19:54:22 INFO  Starting debug proxy for [fp3tests(EX01 - member)]
+2023.10.28 19:54:23 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:55138 .
+2023.10.28 19:54:23 INFO  Attaching to debuggee VM succeeded.
+2023.10.28 19:54:24 INFO  Closing debug server tcp://0.0.0.0:55134
+2023.10.28 19:54:24 INFO  Canceling debug proxy for [fp3tests(EX01 - member)]
+2023.10.28 19:56:12 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:56:12 INFO  time: compiled hw5-6-7 in 0.41s
+2023.10.28 19:56:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.28 19:56:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.28 19:56:18 INFO  Starting debug proxy for [fp3tests(EX01 - member)]
+2023.10.28 19:56:19 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:55536 .
+2023.10.28 19:56:19 INFO  Attaching to debuggee VM succeeded.
+2023.10.28 19:56:21 INFO  Canceling debug proxy for [fp3tests(EX01 - member)]
+2023.10.28 19:56:21 INFO  Closing debug server tcp://0.0.0.0:55532
+2023.10.28 19:56:32 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:56:32 INFO  Deduplicating compilation of hw5-6-7 from bsp client 'Metals 1.1.0' (since 10m 51.771s)
+2023.10.28 19:56:32 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:56:32 INFO  time: compiled hw5-6-7 in 0.44s
+2023.10.28 19:56:34 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:56:34 INFO  time: compiled hw5-6-7 in 0.49s
+2023.10.28 19:56:37 INFO  {
+  "jsonrpc": "2.0",
+  "id": "91",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+Oct 28, 2023 7:56:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:404)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:404)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:379)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.28 19:56:37 ERROR failed: Starting debug server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:404)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:404)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:379)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.28 19:56:44 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:56:44 INFO  time: compiled hw5-6-7 in 0.25s
+2023.10.28 19:56:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.28 19:56:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.28 19:56:52 INFO  Starting debug proxy for [fp3tests(EX01 - member)]
+2023.10.28 19:56:53 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:55567 .
+2023.10.28 19:56:53 INFO  Attaching to debuggee VM succeeded.
+2023.10.28 19:56:54 INFO  Canceling debug proxy for [fp3tests(EX01 - member)]
+2023.10.28 19:56:54 INFO  Closing debug server tcp://0.0.0.0:55563
+2023.10.28 19:57:45 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:57:45 INFO  time: compiled hw5-6-7 in 0.81s
+2023.10.28 19:57:55 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:57:55 INFO  time: compiled hw5-6-7 in 0.41s
+2023.10.28 19:57:58 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:57:58 INFO  time: compiled hw5-6-7 in 0.42s
+2023.10.28 19:58:03 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:58:03 INFO  time: compiled hw5-6-7 in 0.35s
+2023.10.28 19:58:30 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 19:58:30 INFO  time: compiled hw5-6-7 in 0.28s
+Oct 28, 2023 7:58:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-28\r_compiler-error_(hw5-6-7)_19-58-39-402.md
+Oct 28, 2023 8:00:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1113
+2023.10.28 20:00:51 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 20:00:51 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.28 20:01:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.28 20:01:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.28 20:01:01 INFO  Starting debug proxy for [fp3tests(EX02 - allEqual)]
+2023.10.28 20:01:02 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:55731 .
+2023.10.28 20:01:02 INFO  Attaching to debuggee VM succeeded.
+2023.10.28 20:01:03 INFO  Canceling debug proxy for [fp3tests(EX02 - allEqual)]
+2023.10.28 20:01:03 INFO  Closing debug server tcp://0.0.0.0:55727
+2023.10.28 20:35:43 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 20:35:43 INFO  time: compiled hw5-6-7 in 0.42s
+2023.10.28 20:36:05 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 20:36:05 INFO  time: compiled hw5-6-7 in 0.66s
+2023.10.28 20:36:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.28 20:36:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.28 20:36:17 INFO  Starting debug proxy for [fp3tests(EX03 - stringLengths)]
+2023.10.28 20:36:21 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56021 .
+2023.10.28 20:36:21 INFO  Attaching to debuggee VM succeeded.
+2023.10.28 20:36:22 INFO  Canceling debug proxy for [fp3tests(EX03 - stringLengths)]
+2023.10.28 20:36:22 INFO  Closing debug server tcp://0.0.0.0:56015
+2023.10.28 20:37:00 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.28 20:37:00 INFO  time: compiled hw5-6-7 in 0.34s
+2023.10.29 12:19:23 INFO  Shutting down server
+2023.10.29 12:19:23 INFO  shutting down Metals
+2023.10.29 12:19:24 INFO  Exiting server
+2023.10.29 12:28:14 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.29 12:28:16 INFO  Attempting to connect to the build server...
+2023.10.29 12:28:16 INFO  skipping build import with status 'Installed'
+2023.10.29 12:28:16 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 12:28:21 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\src\main\scala\fp3.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Oct 29, 2023 12:28:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Oct 29, 2023 12:28:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2023.10.29 12:28:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 12:28:27 INFO  Attempting to connect to the build server...
+2023.10.29 12:28:27 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 12:28:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 12:28:27 INFO  time: Connected to build server in 11s
+2023.10.29 12:28:27 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 12:28:28 INFO  time: Imported build in 0.28s
+2023.10.29 12:28:32 INFO  time: indexed workspace in 4.05s
+Oct 29, 2023 12:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+2023.10.29 12:30:51 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:30:55 INFO  time: compiled hw5-6-7 in 4.14s
+2023.10.29 12:30:57 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:30:57 INFO  time: compiled hw5-6-7 in 0.73s
+2023.10.29 12:31:02 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:31:02 INFO  time: compiled hw5-6-7 in 0.41s
+Oct 29, 2023 12:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$startTestSuite$4(DebugProvider.scala:674)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.29 12:31:17 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:31:20 INFO  time: compiled hw5-6-7 in 2.44s
+Oct 29, 2023 12:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 544
+2023.10.29 12:33:10 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:33:11 INFO  time: compiled hw5-6-7 in 1.16s
+2023.10.29 12:35:00 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:35:02 INFO  time: compiled hw5-6-7 in 2.42s
+2023.10.29 12:35:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 12:35:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 12:35:24 INFO  Starting debug proxy for [fp3tests(EX04 - delete1)]
+2023.10.29 12:35:27 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50443 .
+2023.10.29 12:35:27 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 12:35:29 INFO  Canceling debug proxy for [fp3tests(EX04 - delete1)]
+2023.10.29 12:35:29 INFO  Closing debug server tcp://0.0.0.0:50438
+2023.10.29 12:42:22 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 12:42:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 12:42:22 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 12:42:22 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 12:42:22 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 12:42:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 12:42:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 12:42:23 INFO  time: Imported build in 0.14s
+2023.10.29 12:42:25 INFO  time: indexed workspace in 2.41s
+Oct 29, 2023 12:42:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-29\r_compiler-error_(hw5-6-7)_12-42-40-455.md
+Oct 29, 2023 12:42:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 780
+2023.10.29 12:43:37 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:43:37 INFO  time: compiled hw5-6-7 in 0.65s
+2023.10.29 12:43:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 12:43:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 12:43:48 INFO  Starting debug proxy for [fp3tests(EX04 - delete1)]
+2023.10.29 12:43:48 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50739 .
+2023.10.29 12:43:48 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 12:43:49 INFO  Canceling debug proxy for [fp3tests(EX04 - delete1)]
+2023.10.29 12:43:49 INFO  Closing debug server tcp://0.0.0.0:50735
+2023.10.29 12:44:24 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:44:24 INFO  time: compiled hw5-6-7 in 0.55s
+2023.10.29 12:44:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 12:44:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 12:44:33 INFO  Starting debug proxy for [fp3tests(EX04 - delete1)]
+2023.10.29 12:44:33 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50763 .
+2023.10.29 12:44:33 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 12:44:35 INFO  Canceling debug proxy for [fp3tests(EX04 - delete1)]
+2023.10.29 12:44:35 INFO  Closing debug server tcp://0.0.0.0:50759
+Oct 29, 2023 12:44:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1043
+Oct 29, 2023 12:45:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1070
+Oct 29, 2023 12:52:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1311
+2023.10.29 12:54:56 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 12:54:56 INFO  time: compiled hw5-6-7 in 0.66s
+2023.10.29 12:55:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 12:55:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 12:55:06 INFO  Starting debug proxy for [fp3tests(EX05 - delete2)]
+2023.10.29 12:55:06 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50997 .
+2023.10.29 12:55:06 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 12:55:07 INFO  Canceling debug proxy for [fp3tests(EX05 - delete2)]
+2023.10.29 12:55:07 INFO  Closing debug server tcp://0.0.0.0:50993
+2023.10.29 12:55:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 12:55:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 12:55:14 INFO  Starting debug proxy for [fp3tests(EX06 - delete3)]
+2023.10.29 12:55:15 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51010 .
+2023.10.29 12:55:15 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 12:55:16 INFO  Canceling debug proxy for [fp3tests(EX06 - delete3)]
+2023.10.29 12:55:16 INFO  Closing debug server tcp://0.0.0.0:51006
+Oct 29, 2023 12:57:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-29\r_compiler-error_(hw5-6-7)_12-57-56-438.md
+2023.10.29 13:00:25 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:00:25 INFO  time: compiled hw5-6-7 in 0.64s
+2023.10.29 13:00:39 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:00:39 INFO  time: compiled hw5-6-7 in 0.56s
+2023.10.29 13:02:47 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:02:47 INFO  time: compiled hw5-6-7 in 0.67s
+2023.10.29 13:03:16 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:03:16 INFO  time: compiled hw5-6-7 in 0.56s
+Oct 29, 2023 1:19:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-29\r_compiler-error_(hw5-6-7)_13-19-42-397.md
+Oct 29, 2023 1:21:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2072
+Oct 29, 2023 1:22:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2229
+Oct 29, 2023 1:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2464
+Oct 29, 2023 1:24:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-29\r_compiler-error_(hw5-6-7)_13-24-46-785.md
+Oct 29, 2023 1:25:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2608
+2023.10.29 13:25:35 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:25:35 INFO  time: compiled hw5-6-7 in 0.64s
+2023.10.29 13:26:03 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:26:03 INFO  time: compiled hw5-6-7 in 0.78s
+2023.10.29 13:26:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 13:26:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 13:26:32 INFO  Starting debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:26:32 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51655 .
+2023.10.29 13:26:32 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 13:26:33 INFO  Canceling debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:26:33 INFO  Closing debug server tcp://0.0.0.0:51651
+2023.10.29 13:27:22 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:27:22 INFO  time: compiled hw5-6-7 in 0.23s
+2023.10.29 13:27:29 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:27:29 INFO  time: compiled hw5-6-7 in 0.47s
+2023.10.29 13:27:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 13:27:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 13:27:38 INFO  Starting debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:27:38 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51682 .
+2023.10.29 13:27:38 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 13:27:39 INFO  Canceling debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:27:39 INFO  Closing debug server tcp://0.0.0.0:51678
+2023.10.29 13:28:20 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:28:20 INFO  time: compiled hw5-6-7 in 0.51s
+2023.10.29 13:28:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 13:28:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 13:28:30 INFO  Starting debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:28:31 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51711 .
+2023.10.29 13:28:31 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 13:28:32 INFO  Canceling debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:28:32 INFO  Closing debug server tcp://0.0.0.0:51707
+2023.10.29 13:29:13 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:29:13 INFO  time: compiled hw5-6-7 in 0.76s
+2023.10.29 13:29:54 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:29:54 INFO  time: compiled hw5-6-7 in 0.54s
+2023.10.29 13:30:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 13:30:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 13:30:03 INFO  Starting debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:30:04 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51738 .
+2023.10.29 13:30:04 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 13:30:05 INFO  Canceling debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:30:05 INFO  Closing debug server tcp://0.0.0.0:51734
+Oct 29, 2023 1:32:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3151
+2023.10.29 13:33:12 INFO  Shutting down server
+2023.10.29 13:33:12 INFO  shutting down Metals
+2023.10.29 13:33:12 INFO  Shut down connection with build server.
+Oct 29, 2023 1:33:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.10.29 13:33:12 INFO  Cancelling compilation on Bloop server
+2023.10.29 13:33:12 INFO  Cancelling compilation on Bloop server
+2023.10.29 13:33:12 INFO  Cancelling compilation on Bloop server
+2023.10.29 13:33:12 INFO  Exiting server
+2023.10.29 13:33:49 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.29 13:33:51 INFO  Attempting to connect to the build server...
+2023.10.29 13:33:51 INFO  skipping build import with status 'Installed'
+2023.10.29 13:33:51 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:33:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:33:51 INFO  Attempting to connect to the build server...
+2023.10.29 13:33:51 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:33:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:33:51 INFO  time: Connected to build server in 0.5s
+2023.10.29 13:33:51 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 13:33:52 INFO  time: Imported build in 0.11s
+2023.10.29 13:33:57 INFO  time: indexed workspace in 5.58s
+2023.10.29 13:34:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 13:34:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 13:34:16 INFO  Starting debug proxy for [fp3tests(EX07 - removeDupes1)]
+2023.10.29 13:34:16 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51812 .
+2023.10.29 13:34:16 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 13:34:17 INFO  Canceling debug proxy for [fp3tests(EX07 - removeDupes1)]
+2023.10.29 13:34:17 INFO  Closing debug server tcp://0.0.0.0:51808
+2023.10.29 13:34:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 13:34:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 13:34:24 INFO  Starting debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:34:24 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51827 .
+2023.10.29 13:34:24 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 13:34:26 INFO  Canceling debug proxy for [fp3tests(EX08 - removeDupes2)]
+2023.10.29 13:34:26 INFO  Closing debug server tcp://0.0.0.0:51821
+2023.10.29 13:36:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:36:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:36:54 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 13:36:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:36:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:36:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:36:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:36:57 INFO  time: indexed workspace in 2.1s
+2023.10.29 13:37:28 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:37:28 INFO  time: compiled hw5-6-7 in 0.45s
+2023.10.29 13:40:03 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:40:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:40:03 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 13:40:03 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:40:03 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 13:40:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:40:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 13:40:05 INFO  time: indexed workspace in 1.83s
+2023.10.29 13:42:00 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:42:00 INFO  time: compiled hw5-6-7 in 0.53s
+2023.10.29 13:49:12 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 13:49:12 INFO  time: compiled hw5-6-7 in 0.59s
+Oct 29, 2023 4:07:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+2023.10.29 16:09:23 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:09:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:09:23 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 16:09:23 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:09:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:09:26 INFO  time: indexed workspace in 2.22s
+2023.10.29 16:09:26 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:09:28 INFO  time: compiled hw5-6-7 in 2.15s
+2023.10.29 16:10:22 INFO  Shutting down server
+2023.10.29 16:10:22 INFO  shutting down Metals
+2023.10.29 16:10:22 INFO  Shut down connection with build server.
+2023.10.29 16:10:22 INFO  Shut down connection with build server.
+Oct 29, 2023 4:10:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.29 16:10:22 INFO  Cancelling compilation on Bloop server
+2023.10.29 16:10:22 INFO  Exiting server
+2023.10.29 16:10:59 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.29 16:11:01 INFO  Attempting to connect to the build server...
+2023.10.29 16:11:01 INFO  skipping build import with status 'Installed'
+2023.10.29 16:11:01 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:11:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:11:01 INFO  Attempting to connect to the build server...
+2023.10.29 16:11:01 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:11:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:11:01 INFO  time: Connected to build server in 0.41s
+2023.10.29 16:11:01 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 16:11:07 INFO  time: indexed workspace in 4.8s
+2023.10.29 16:11:07 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:11:10 INFO  time: compiled hw5-6-7 in 3.36s
+2023.10.29 16:11:10 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:11:12 INFO  time: compiled hw5-6-7 in 1.51s
+2023.10.29 16:14:04 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:14:04 INFO  time: compiled hw5-6-7 in 0.51s
+2023.10.29 16:14:50 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:14:50 INFO  time: compiled hw5-6-7 in 0.54s
+2023.10.29 16:15:00 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:15:00 INFO  time: compiled hw5-6-7 in 0.52s
+2023.10.29 16:16:44 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:16:44 INFO  time: compiled hw5-6-7 in 0.41s
+2023.10.29 16:17:11 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:17:11 INFO  time: compiled hw5-6-7 in 0.4s
+2023.10.29 16:17:34 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:17:34 INFO  time: compiled hw5-6-7 in 0.35s
+2023.10.29 16:17:55 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:17:55 INFO  time: compiled hw5-6-7 in 0.63s
+Oct 29, 2023 4:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 262
+Oct 29, 2023 4:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 266
+Oct 29, 2023 4:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 267
+Oct 29, 2023 4:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 265
+Oct 29, 2023 4:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 263
+2023.10.29 16:18:14 INFO  Shutting down server
+2023.10.29 16:18:14 INFO  shutting down Metals
+2023.10.29 16:18:14 INFO  Shut down connection with build server.
+2023.10.29 16:18:14 INFO  Shut down connection with build server.
+2023.10.29 16:18:14 INFO  Exiting server
+2023.10.29 16:18:49 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.29 16:18:53 INFO  Attempting to connect to the build server...
+2023.10.29 16:18:53 INFO  skipping build import with status 'Installed'
+2023.10.29 16:18:53 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:18:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:18:53 INFO  Attempting to connect to the build server...
+2023.10.29 16:18:53 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:18:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:18:53 INFO  time: Connected to build server in 0.67s
+2023.10.29 16:18:53 INFO  Connected to Build server: Bloop v1.5.11
+Oct 29, 2023 4:18:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.10.29 16:18:59 INFO  time: indexed workspace in 5.09s
+2023.10.29 16:18:59 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:19:02 INFO  time: compiled hw5-6-7 in 3.11s
+2023.10.29 16:19:02 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:19:03 INFO  time: compiled hw5-6-7 in 1s
+2023.10.29 16:19:05 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:19:05 INFO  time: compiled hw5-6-7 in 0.67s
+2023.10.29 16:19:17 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:19:17 INFO  time: compiled hw5-6-7 in 0.33s
+2023.10.29 16:20:15 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:20:15 INFO  time: compiled hw5-6-7 in 0.63s
+Oct 29, 2023 4:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+2023.10.29 16:20:30 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:20:32 INFO  time: compiled hw5-6-7 in 1.54s
+2023.10.29 16:20:35 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:20:35 INFO  time: compiled hw5-6-7 in 0.36s
+2023.10.29 16:21:07 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:21:07 INFO  time: compiled hw5-6-7 in 0.37s
+2023.10.29 16:21:21 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:21:21 INFO  time: compiled hw5-6-7 in 0.33s
+2023.10.29 16:21:26 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:21:26 INFO  time: compiled hw5-6-7 in 0.32s
+2023.10.29 16:21:57 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:21:57 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.29 16:22:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 16:22:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 16:22:10 INFO  Starting debug proxy for [fp3tests()]
+2023.10.29 16:22:11 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53500 .
+2023.10.29 16:22:11 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 16:22:12 INFO  Canceling debug proxy for [fp3tests()]
+2023.10.29 16:22:12 INFO  Closing debug server tcp://0.0.0.0:53496
+2023.10.29 16:24:23 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:24:23 INFO  time: compiled hw5-6-7 in 0.11s
+2023.10.29 16:25:27 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:25:27 INFO  time: compiled hw5-6-7 in 0.14s
+2023.10.29 16:26:18 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:26:18 INFO  time: compiled hw5-6-7 in 0.12s
+2023.10.29 16:26:28 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:26:28 INFO  time: compiled hw5-6-7 in 0.29s
+2023.10.29 16:26:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 16:26:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 16:26:40 INFO  Starting debug proxy for [fp3tests()]
+2023.10.29 16:26:41 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53604 .
+2023.10.29 16:26:41 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 16:26:42 INFO  Canceling debug proxy for [fp3tests()]
+2023.10.29 16:26:42 INFO  Closing debug server tcp://0.0.0.0:53600
+Oct 29, 2023 4:26:42 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:158)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:69)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+Oct 29, 2023 4:28:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\.reports\metals-full\2023-10-29\r_compiler-error_(hw5-6-7)_16-28-06-353.md
+Oct 29, 2023 4:28:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 627
+Oct 29, 2023 4:28:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 628
+Oct 29, 2023 4:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 679
+2023.10.29 16:29:44 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:29:44 INFO  time: compiled hw5-6-7 in 0.36s
+2023.10.29 16:30:22 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:30:22 INFO  time: compiled hw5-6-7 in 0.26s
+2023.10.29 16:31:16 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:31:16 INFO  time: compiled hw5-6-7 in 0.28s
+2023.10.29 16:32:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 16:32:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 16:32:02 INFO  Starting debug proxy for [fp3tests()]
+2023.10.29 16:32:02 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53669 .
+2023.10.29 16:32:02 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 16:32:03 INFO  Closing debug server tcp://0.0.0.0:53665
+2023.10.29 16:32:03 INFO  Canceling debug proxy for [fp3tests()]
+2023.10.29 16:34:32 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:34:32 INFO  time: compiled hw5-6-7 in 0.37s
+2023.10.29 16:34:55 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:34:55 INFO  time: compiled hw5-6-7 in 0.39s
+Oct 29, 2023 4:36:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1141
+Oct 29, 2023 4:36:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1150
+2023.10.29 16:36:16 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:36:16 INFO  time: compiled hw5-6-7 in 0.47s
+2023.10.29 16:36:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.29 16:36:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.29 16:36:35 INFO  Starting debug proxy for [fp3tests()]
+2023.10.29 16:36:37 INFO  Loaded expression compiler in 1 second
+2023.10.29 16:36:37 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\scala-debug-step-filter_3\3.1.4\scala-debug-step-filter_3-3.1.4.jar
+2023.10.29 16:36:37 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar
+2023.10.29 16:36:37 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.1\scala3-library_3-3.3.1.jar
+2023.10.29 16:36:37 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\tasty-query_3\0.8.4\tasty-query_3-0.8.4.jar
+2023.10.29 16:36:37 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
+2023.10.29 16:36:37 INFO  Loaded step filter in 375 milliseconds
+2023.10.29 16:36:40 INFO  Loaded all sources and classes in 2 seconds
+2023.10.29 16:36:42 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53754 .
+2023.10.29 16:36:42 INFO  Attaching to debuggee VM succeeded.
+2023.10.29 16:36:43 INFO  Canceling debug proxy for [fp3tests()]
+2023.10.29 16:36:43 INFO  Closing debug server tcp://0.0.0.0:53750
+Oct 29, 2023 4:37:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1225
+Oct 29, 2023 4:37:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1244
+2023.10.29 16:37:22 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.29 16:37:22 INFO  time: compiled hw5-6-7 in 0.38s
+2023.10.30 22:42:32 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.30 22:42:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 22:42:33 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 22:42:33 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.30 22:42:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 22:42:48 INFO  Shutting down server
+2023.10.30 22:42:48 INFO  shutting down Metals
+2023.10.30 22:42:48 INFO  Shut down connection with build server.
+Oct 30, 2023 10:42:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.30 22:42:49 INFO  Shut down connection with build server.
+Oct 30, 2023 10:42:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.10.30 22:42:49 INFO  Cancelling compilation on Bloop server
+2023.10.30 22:42:49 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.10.30 22:42:48 INFO  Exiting server
+2023.10.30 22:43:25 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.83.1.
+2023.10.30 22:43:28 INFO  Attempting to connect to the build server...
+2023.10.30 22:43:28 INFO  skipping build import with status 'Installed'
+2023.10.30 22:43:28 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.30 22:43:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 22:43:28 INFO  Attempting to connect to the build server...
+2023.10.30 22:43:28 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.30 22:43:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 22:43:28 INFO  time: Connected to build server in 0.53s
+2023.10.30 22:43:28 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 22:43:28 INFO  time: Imported build in 0.21s
+2023.10.30 22:43:35 INFO  time: indexed workspace in 6.08s
+2023.10.30 22:43:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.30 22:43:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.30 22:44:00 INFO  Starting debug proxy for [fp3tests()]
+2023.10.30 22:44:01 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:54515 .
+2023.10.30 22:44:01 INFO  Attaching to debuggee VM succeeded.
+2023.10.30 22:44:03 INFO  Canceling debug proxy for [fp3tests()]
+2023.10.30 22:44:03 INFO  Closing debug server tcp://0.0.0.0:54511
+2023.10.30 22:46:04 INFO  compiling hw5-6-7 (1 scala source)
+2023.10.30 22:46:07 INFO  time: compiled hw5-6-7 in 3.35s
+2023.11.01 18:20:15 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.11.01 18:20:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.01 18:20:16 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.01 18:20:16 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.11.01 18:20:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Nov 01, 2023 6:20:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Nov 01, 2023 6:20:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Nov 01, 2023 6:20:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2023.11.01 18:22:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.11.01 18:22:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.11.01 18:22:28 INFO  Starting debug proxy for [fp3tests(EX07 - removeDupes1)]
+2023.11.01 18:22:29 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:51888 .
+2023.11.01 18:22:29 INFO  Attaching to debuggee VM succeeded.
+2023.11.01 18:22:31 INFO  Canceling debug proxy for [fp3tests(EX07 - removeDupes1)]
+2023.11.01 18:22:31 INFO  Closing debug server tcp://0.0.0.0:51882
+Nov 01, 2023 6:24:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 411
+2023.11.01 18:26:02 INFO  compiling hw5-6-7 (1 scala source)
+2023.11.01 18:26:03 INFO  time: compiled hw5-6-7 in 1.96s
+2023.11.01 18:38:13 INFO  compiling hw5-6-7 (1 scala source)
+2023.11.01 18:38:13 INFO  time: compiled hw5-6-7 in 0.87s
+2023.11.02 18:01:12 INFO  Shutting down server
+2023.11.02 18:01:12 INFO  shutting down Metals
+2023.11.11 19:39:17 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7' for client Visual Studio Code 1.84.1.
+2023.11.11 19:39:23 INFO  Attempting to connect to the build server...
+2023.11.11 19:39:23 INFO  skipping build import with status 'Installed'
+2023.11.11 19:39:23 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.11.11 19:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.11 19:39:28 INFO  Attempting to connect to the build server...
+2023.11.11 19:39:28 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.11.11 19:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw5-6-7\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.11 19:39:28 INFO  time: Connected to build server in 6.2s
+2023.11.11 19:39:28 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.11 19:39:29 INFO  time: Imported build in 0.21s
+2023.11.11 19:39:33 INFO  time: indexed workspace in 4.14s
+Nov 11, 2023 9:02:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2023.11.12 23:06:33 INFO  Shutting down server
+2023.11.12 23:06:33 INFO  shutting down Metals
+2023.11.12 23:06:35 INFO  Shut down connection with build server.
+2023.11.12 23:06:35 INFO  Shut down connection with build server.

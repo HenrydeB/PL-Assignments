@@ -1,0 +1,4 @@
+[debug] [chap04_scanning-test] Classpath dependencies List()
+[debug] [chap04_scanning-test] Dependencies from configurations List(chap04_scanning)
+[debug] Bloop wrote the configuration of project 'chap04_scanning-test' to 'C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.bloop\chap04_scanning-test.json'
+[success] Generated .bloop\chap04_scanning-test.json

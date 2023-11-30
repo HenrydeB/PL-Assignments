@@ -1,0 +1,24 @@
+class Math{
+    class square(n){
+        return n*n;
+    }
+}
+class C {
+    init(x){
+        this.x = x;
+    }
+    inc(){
+        this.x = this.x +1;
+        return this.x;
+    }
+    class double(z){
+        return z + z;
+    }
+    get(y){
+        return C.double(this.inc() + y);
+    }
+}
+
+print Math.square(3);
+
+print C(10).get(2);

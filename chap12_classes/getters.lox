@@ -1,0 +1,38 @@
+class Circle{
+    init(radius){
+        this.radius = radius;
+    }
+
+    area{
+        return 3.141592653 * this.radius *this.radius;
+    }
+}
+
+var circle = Circle(4);
+print circle.area;
+
+class C{
+    init(x){
+        this.x = x;
+    }
+    inc(){
+        this.x = this.x +1;
+        return this;
+    }
+    double {
+        return this.x + this.x;
+    }
+}
+
+print C(10).inc().double;
+
+class D{
+    init(){
+        this.x = 10;
+    }
+    x{
+        return 20;
+    }
+}
+
+print D().x;

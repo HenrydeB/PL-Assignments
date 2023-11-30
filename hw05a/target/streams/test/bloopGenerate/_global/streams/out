@@ -1,0 +1,4 @@
+[debug] [hw05a-test] Classpath dependencies List()
+[debug] [hw05a-test] Dependencies from configurations List(hw05a)
+[debug] Bloop wrote the configuration of project 'hw05a-test' to 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.bloop\hw05a-test.json'
+[success] Generated .bloop\hw05a-test.json

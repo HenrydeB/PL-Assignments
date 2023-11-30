@@ -1,0 +1,113 @@
+java.util.NoSuchElementException: next on empty iterator
+occurred in the presentation compiler.
+
+action parameters:
+offset: 974
+uri: file:///C:/Users/henry/source/repos/ProgrammingLanguages/chap13_inheritance/src/main/java/com/craftinginterpreters/lox/Environment.java
+text:
+package com.craftinginterpreters.lox;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class Environment {
+  final Environment enclosing;
+  private final Map<String, Object> values = new HashMap<>();
+  Environment() {
+    enclosing = null;
+  }
+
+  Environment(Environment enclosing) {
+    this.enclosing = enclosing;
+  }
+
+  Object get(Token name) {
+    if (values.containsKey(name.lexeme)) {
+      return values.get(name.lexeme);
+    }
+
+    if (enclosing != null) return enclosing.get(name);
+
+    throw new RuntimeError(name,
+        "Undefined variable '" + name.lexeme + "'.");
+  }
+
+  void assign(Token name, Object value) {
+    if (values.containsKey(name.lexeme)) {
+      values.put(name.lexeme, value);
+      return;
+    }
+
+    if (enclosing != null) {
+      enclosing.assign(name, value);
+      return;
+    }
+
+    throw new RuntimeError(name,
+        "Undefined variable '" + name.lexeme + "'.");
+  }
+  void define(String name, Object value) {
+    values.put(name, val@@ue);
+  }
+  Environment ancestor(int distance) {
+    Environment environment = this;
+    for (int i = 0; i < distance; i++) {
+      environment = environment.enclosing; // [coupled]
+    }
+
+    return environment;
+  }
+  Object getAt(int distance, String name) {
+    return ancestor(distance).values.get(name);
+  }
+
+
+  Object dig(String name){
+    
+    for(var key : values.keySet()){
+       var current = values.get(key);
+       if(current instanceof LoxClass){
+        LoxClass currentClass = (LoxClass)current;
+        if(currentClass.getChild() != null){
+          return currentClass.getChild();
+        }
+       }
+    }
+    return enclosing.dig(name);
+  }
+
+  void assignAt(int distance, Token name, Object value) {
+    ancestor(distance).values.put(name.lexeme, value);
+  }
+  @Override
+  public String toString() {
+    String result = values.toString();
+    if (enclosing != null) {
+      result += " -> " + enclosing.toString();
+    }
+
+    return result;
+  }
+
+  public static LoxClass searchClass(){
+
+
+    
+
+    return null;
+  }
+}
+
+
+
+error stacktrace:
+scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	scala.collection.mutable.MutationTracker$CheckedIterator.next(MutationTracker.scala:76)
+	scala.collection.IterableOps.head(Iterable.scala:222)
+	scala.collection.IterableOps.head$(Iterable.scala:222)
+	scala.collection.AbstractIterable.head(Iterable.scala:933)
+	dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:168)
+	scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:45)
+	scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:34)
+	scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:325)

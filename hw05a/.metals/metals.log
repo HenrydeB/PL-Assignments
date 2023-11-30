@@ -1,0 +1,1417 @@
+2023.10.13 21:48:21 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\metals (H2 2.1)
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.031s)
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Oct 13, 2023 9:48:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Oct 13, 2023 9:48:22 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Oct 13, 2023 9:48:22 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Oct 13, 2023 9:48:22 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Oct 13, 2023 9:48:22 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.045s)
+2023.10.13 21:48:22 INFO  time: initialize in 0.85s
+2023.10.13 21:48:24 WARN  Build server is not auto-connectable.
+2023.10.13 21:49:23 WARN  no build target for: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\build.sbt
+Oct 13, 2023 9:49:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.10.13 21:49:27 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\build.sbt. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.13 21:49:29 INFO  time: code lens generation in 3.17s
+2023.10.13 21:49:29 INFO  time: code lens generation in 2.85s
+2023.10.13 21:49:34 INFO  Shutting down server
+2023.10.13 21:49:34 INFO  shutting down Metals
+2023.10.13 21:49:34 INFO  Exiting server
+2023.10.13 21:50:09 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\metals (H2 2.1)
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.036s)
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 13, 2023 9:50:10 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.13 21:50:10 INFO  time: initialize in 0.85s
+2023.10.13 21:50:13 WARN  Build server is not auto-connectable.
+2023.10.13 21:50:13 WARN  no build target for: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\build.sbt
+2023.10.13 21:50:13 INFO  skipping build import with status 'Dismissed'
+2023.10.13 21:50:17 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\build.sbt. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.13 21:50:19 INFO  time: code lens generation in 5.73s
+2023.10.13 21:52:45 WARN  no build target for: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala
+Oct 13, 2023 9:52:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.12/scalafmt-core_2.13-3.7.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.12/scalafmt-core_2.13-3.7.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.12/scalafmt-config_2.13-3.7.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.12/scalafmt-sysops_2.13-3.7.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.7/scalameta_2.13-4.8.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.12/scalafmt-config_2.13-3.7.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.7/scalameta_2.13-4.8.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.12/scalafmt-sysops_2.13-3.7.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.7/parsers_2.13-4.8.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.7/parsers_2.13-4.8.7.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.7/trees_2.13-4.8.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.7/trees_2.13-4.8.7.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.7/common_2.13-4.8.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.7/common_2.13-4.8.7.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.7/parsers_2.13-4.8.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.7/scalameta_2.13-4.8.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.12/scalafmt-config_2.13-3.7.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.7/trees_2.13-4.8.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.12/scalafmt-sysops_2.13-3.7.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.7/common_2.13-4.8.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.12/scalafmt-config_2.13-3.7.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.12/scalafmt-core_2.13-3.7.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.12/scalafmt-sysops_2.13-3.7.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.7/scalameta_2.13-4.8.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.7/parsers_2.13-4.8.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.7/common_2.13-4.8.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.12/scalafmt-core_2.13-3.7.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.7/trees_2.13-4.8.7.jar
+2023.10.13 21:53:19 ERROR scalafmt: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala:34: error: [dialect scala213] ; expected but : found
+object fp1:
+          ^
+2023.10.13 21:53:50 ERROR scalafmt: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala:34: error: [dialect scala213] ; expected but : found
+object fp1:
+          ^
+2023.10.13 21:54:05 INFO  Shutting down server
+2023.10.13 21:54:05 INFO  shutting down Metals
+2023.10.13 21:54:05 INFO  Exiting server
+2023.10.13 21:54:30 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\metals (H2 2.1)
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 13, 2023 9:54:30 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.13 21:54:31 INFO  time: initialize in 0.78s
+2023.10.13 21:54:33 WARN  Build server is not auto-connectable.
+2023.10.13 21:54:33 WARN  no build target for: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala
+2023.10.13 21:54:36 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.13 21:54:37 INFO  running 'C:\Program Files\Amazon Corretto\jdk17.0.8_8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.4 -jar C:\Users\henry\AppData\Local\Temp\metals8339707192532720822\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.13 21:54:40 INFO  [info] Updated file C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\build.properties: set sbt.version to 1.9.4
+2023.10.13 21:54:40 INFO  [info] welcome to sbt 1.9.4 (Amazon.com Inc. Java 17.0.8.1)
+2023.10.13 21:54:40 INFO  time: code lens generation in 6.79s
+2023.10.13 21:54:40 INFO  time: code lens generation in 2.73s
+2023.10.13 21:54:43 INFO  [info] loading settings for project hw05a-build-build from metals.sbt ...
+2023.10.13 21:54:43 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\project
+2023.10.13 21:54:47 INFO  [info] loading settings for project hw05a-build from metals.sbt ...
+2023.10.13 21:54:47 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project
+2023.10.13 21:54:50 INFO  [success] Generated .bloop\hw05a-build.json
+2023.10.13 21:54:50 INFO  [success] Total time: 3 s, completed Oct 13, 2023, 9:54:50 PM
+2023.10.13 21:54:52 INFO  [info] loading settings for project hw05a from build.sbt ...
+2023.10.13 21:54:52 INFO  [info] set current project to CSC447 (in build file:/C:/Users/henry/source/repos/ProgrammingLanguages/hw05a/)
+2023.10.13 21:55:02 INFO  [success] Generated .bloop\hw05a.json
+2023.10.13 21:55:02 INFO  [success] Generated .bloop\hw05a-test.json
+2023.10.13 21:55:02 INFO  [success] Total time: 10 s, completed Oct 13, 2023, 9:55:02 PM
+2023.10.13 21:55:03 INFO  time: ran 'sbt bloopInstall' in 25s
+2023.10.13 21:55:03 INFO  Attempting to connect to the build server...
+2023.10.13 21:55:03 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.13 21:55:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.13 21:55:03 INFO  Attempting to connect to the build server...
+2023.10.13 21:55:03 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.13 21:55:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.13 21:55:03 INFO  time: Connected to build server in 0.76s
+2023.10.13 21:55:03 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.13 21:55:04 INFO  time: Imported build in 0.13s
+2023.10.13 21:55:05 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- src\main\scala
+- src\test\scala
+2023.10.13 21:55:10 INFO  time: indexed workspace in 6.33s
+2023.10.13 21:55:10 INFO  compiling hw05a (1 scala source)
+2023.10.13 21:55:20 INFO  compiling hw05a-test (2 scala sources)
+2023.10.13 21:55:20 INFO  time: compiled hw05a in 10s
+2023.10.13 21:55:24 INFO  time: compiled hw05a-test in 4.49s
+2023.10.13 21:55:44 ERROR scalafmt: C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala:34: error: [dialect scala213] ; expected but : found
+object fp1:
+          ^
+2023.10.13 21:57:03 INFO  compiling hw05a (1 scala source)
+2023.10.13 21:57:03 INFO  time: compiled hw05a in 0.41s
+Oct 14, 2023 4:05:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 14, 2023 4:05:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 14, 2023 4:05:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.14 16:49:03 INFO  Shutting down server
+2023.10.14 16:49:03 INFO  shutting down Metals
+2023.10.14 16:49:04 INFO  Exiting server
+2023.10.15 12:15:39 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\metals (H2 2.1)
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.026s)
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 15, 2023 12:15:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.15 12:15:40 INFO  time: initialize in 0.86s
+2023.10.15 12:15:42 INFO  Attempting to connect to the build server...
+2023.10.15 12:15:43 INFO  skipping build import with status 'Installed'
+2023.10.15 12:15:42 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.15 12:15:48 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.15 12:15:52 INFO  time: code lens generation in 9.12s
+2023.10.15 12:15:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.15 12:15:52 INFO  Attempting to connect to the build server...
+2023.10.15 12:15:52 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.15 12:15:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.15 12:15:52 INFO  time: Connected to build server in 10s
+2023.10.15 12:15:52 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.15 12:15:52 INFO  time: Imported build in 0.35s
+2023.10.15 12:15:57 INFO  time: indexed workspace in 3.51s
+2023.10.15 12:29:00 INFO  compiling hw05a (1 scala source)
+2023.10.15 12:29:03 INFO  time: compiled hw05a in 2.86s
+Oct 15, 2023 12:33:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 424
+2023.10.15 12:37:08 INFO  compiling hw05a (1 scala source)
+2023.10.15 12:37:10 INFO  time: compiled hw05a in 2.52s
+2023.10.15 12:37:25 INFO  compiling hw05a (1 scala source)
+2023.10.15 12:37:25 INFO  time: compiled hw05a in 0.76s
+Oct 15, 2023 12:38:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-38-48-195
+Oct 15, 2023 12:38:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-38-52-512
+Oct 15, 2023 12:39:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-06-921
+Oct 15, 2023 12:39:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-10-553
+Oct 15, 2023 12:39:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-10-787
+Oct 15, 2023 12:39:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-12-378
+Oct 15, 2023 12:39:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-12-621
+Oct 15, 2023 12:39:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-12-982
+Oct 15, 2023 12:39:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_12-39-13-169
+2023.10.15 12:57:44 INFO  compiling hw05a (1 scala source)
+2023.10.15 12:57:44 INFO  time: compiled hw05a in 0.89s
+Oct 15, 2023 1:07:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_13-07-32-817
+2023.10.15 13:08:45 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:08:45 INFO  time: compiled hw05a in 0.59s
+2023.10.15 13:11:39 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:11:40 INFO  time: compiled hw05a in 1.06s
+2023.10.15 13:11:59 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:11:59 INFO  time: compiled hw05a in 0.71s
+2023.10.15 13:12:09 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:12:09 INFO  time: compiled hw05a in 0.6s
+Oct 15, 2023 1:14:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_13-14-38-842
+2023.10.15 13:20:59 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:20:59 INFO  time: compiled hw05a in 0.67s
+Oct 15, 2023 1:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1777
+2023.10.15 13:21:35 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:21:35 INFO  time: compiled hw05a in 0.47s
+Oct 15, 2023 1:32:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\.reports\metals-full\2023-10-15\r_compiler-error_13-32-25-274
+Oct 15, 2023 1:32:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2216
+2023.10.15 13:34:19 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:34:19 INFO  time: compiled hw05a in 0.47s
+Oct 15, 2023 1:40:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2568
+2023.10.15 13:41:01 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:41:01 INFO  time: compiled hw05a in 0.49s
+Oct 15, 2023 1:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2881
+2023.10.15 13:42:49 INFO  compiling hw05a (1 scala source)
+2023.10.15 13:42:49 INFO  time: compiled hw05a in 0.47s
+2023.10.16 17:21:18 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 17:21:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 17:21:19 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.16 17:21:19 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 17:21:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 17:22:51 INFO  Shutting down server
+2023.10.16 17:22:51 INFO  shutting down Metals
+2023.10.16 17:22:51 INFO  Shut down connection with build server.
+2023.10.16 17:22:51 INFO  Shut down connection with build server.
+2023.10.16 17:22:51 INFO  Cancelling compilation on Bloop server
+Oct 16, 2023 5:22:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:44)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:349)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:349)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.16 17:22:51 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.10.16 17:22:51 INFO  Exiting server
+2023.10.16 17:23:23 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+Oct 16, 2023 5:23:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 16, 2023 5:23:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 16, 2023 5:23:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 16, 2023 5:23:24 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\metals (H2 2.1)
+Oct 16, 2023 5:23:24 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Oct 16, 2023 5:23:24 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 16, 2023 5:23:24 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.16 17:23:24 INFO  time: initialize in 0.92s
+2023.10.16 17:23:26 INFO  Attempting to connect to the build server...
+2023.10.16 17:23:26 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 17:23:27 INFO  skipping build import with status 'Installed'
+2023.10.16 17:23:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 17:23:26 INFO  Attempting to connect to the build server...
+2023.10.16 17:23:26 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 17:23:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 17:23:26 INFO  time: Connected to build server in 0.66s
+2023.10.16 17:23:26 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.16 17:23:31 INFO  no build target found for C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\src\main\scala\fp1.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.16 17:23:31 INFO  time: code lens generation in 5.27s
+2023.10.16 17:23:32 INFO  time: Imported build in 0.17s
+2023.10.16 17:23:36 INFO  time: indexed workspace in 4.26s
+2023.10.16 17:23:36 INFO  compiling hw05a (1 scala source)
+2023.10.16 17:23:39 INFO  time: compiled hw05a in 2.9s
+2023.10.16 17:24:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:24:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:24:14 INFO  Starting debug proxy for [fp1tests(EX01 - factTest)]
+2023.10.16 17:24:18 INFO  Loaded expression compiler in 4 seconds
+2023.10.16 17:24:18 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\scala-debug-step-filter_3\3.1.3\scala-debug-step-filter_3-3.1.3.jar
+2023.10.16 17:24:18 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar
+2023.10.16 17:24:18 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.1\scala3-library_3-3.3.1.jar
+2023.10.16 17:24:18 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\tasty-query_3\0.7.9\tasty-query_3-0.7.9.jar
+2023.10.16 17:24:18 INFO  C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
+2023.10.16 17:24:18 INFO  Loaded step filter in 291 milliseconds
+2023.10.16 17:24:26 INFO  Loaded all sources and classes in 7 seconds
+2023.10.16 17:24:28 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58038 .
+2023.10.16 17:24:28 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:24:50 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+Uri: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:670)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "/*\n * Copyright (c) 1996, 2020, Oracle and/or its affiliates. All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.  Oracle designates this\n * particular file as subject to the \"Classpath\" exception as provided\n * by Oracle in the LICENSE file that accompanied this code.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n * or visit www.oracle.com if you need additional information or have any\n * questions.\n */\n\npackage java.lang;\n\nimport java.io.IOException;\nimport java.io.ObjectInputStream;\nimport java.io.ObjectOutputStream;\nimport java.io.ObjectStreamField;\n\n/**\n * Signals that an unexpected exception has occurred in a static initializer.\n * An {@code ExceptionInInitializerError} is thrown to indicate that an\n * exception occurred during evaluation of a static initializer or the\n * initializer for a static variable.\n *\n * @author  Frank Yellin\n * @since   1.1\n */\npublic class ExceptionInInitializerError extends LinkageError {\n    /**\n     * Use serialVersionUID from JDK 1.1.X for interoperability\n     */\n    @java.io.Serial\n    private static final long serialVersionUID \u003d 1521711792217232256L;\n\n    /**\n     * Constructs an {@code ExceptionInInitializerError} with\n     * {@code null} as its detail message string and with no saved\n     * throwable object.\n     * A detail message is a String that describes this particular exception.\n     */\n    public ExceptionInInitializerError() {\n        initCause(null); // Disallow subsequent initCause\n    }\n\n    /**\n     * Constructs a new {@code ExceptionInInitializerError} class by\n     * saving a reference to the {@code Throwable} object thrown for\n     * later retrieval by the {@link #getException()} method. The detail\n     * message string is set to {@code null}.\n     *\n     * @param thrown The exception thrown\n     */\n    public ExceptionInInitializerError(Throwable thrown) {\n        super(null, thrown); // Disallow subsequent initCause\n    }\n\n    /**\n     * Constructs an {@code ExceptionInInitializerError} with the specified detail\n     * message string.  A detail message is a String that describes this\n     * particular exception. The detail message string is saved for later\n     * retrieval by the {@link Throwable#getMessage()} method. There is no\n     * saved throwable object.\n     *\n     * @param s the detail message\n     */\n    public ExceptionInInitializerError(String s) {\n        super(s, null);  // Disallow subsequent initCause\n    }\n\n    /**\n     * Returns the exception that occurred during a static initialization that\n     * caused this error to be created.\n     *\n     * @apiNote\n     * This method predates the general-purpose exception chaining facility.\n     * The {@link Throwable#getCause()} method is now the preferred means of\n     * obtaining this information.\n     *\n     * @return the saved throwable object of this\n     *         {@code ExceptionInInitializerError}, or {@code null}\n     *         if this {@code ExceptionInInitializerError} has no saved\n     *         throwable object.\n     */\n    public Throwable getException() {\n        return super.getCause();\n    }\n\n    /**\n     * Serializable fields for ExceptionInInitializerError.\n     *\n     * @serialField exception Throwable the exception\n     */\n    @java.io.Serial\n    private static final ObjectStreamField[] serialPersistentFields \u003d {\n        new ObjectStreamField(\"exception\", Throwable.class)\n    };\n\n    /**\n     * Reconstitutes the ExceptionInInitializerError instance from a stream\n     * and initialize the cause properly when deserializing from an older\n     * version.\n     *\n     * The getException and getCause method returns the private \"exception\"\n     * field in the older implementation and ExceptionInInitializerError::cause\n     * was set to null.\n     *\n     * @param  s the {@code ObjectInputStream} from which data is read\n     * @throws IOException if an I/O error occurs\n     * @throws ClassNotFoundException if a serialized class cannot be loaded\n     */\n    @java.io.Serial\n    private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundException {\n        ObjectInputStream.GetField fields \u003d s.readFields();\n        Throwable exception \u003d (Throwable) fields.get(\"exception\", null);\n        if (exception !\u003d null) {\n            setCause(exception);\n        }\n    }\n\n    /**\n     * To maintain compatibility with older implementation, write a serial\n     * \"exception\" field with the cause as the value.\n     *\n     * @param  out the {@code ObjectOutputStream} to which data is written\n     * @throws IOException if an I/O error occurs\n     */\n    @java.io.Serial\n    private void writeObject(ObjectOutputStream out) throws IOException {\n        ObjectOutputStream.PutField fields \u003d out.putFields();\n        fields.put(\"exception\", super.getCause());\n        out.writeFields();\n    }\n\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:319)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+Oct 16, 2023 5:24:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:604)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+2023.10.16 17:24:57 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:24:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$1(MetalsLspService.scala:1582)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.foldingRange(MetalsLspService.scala:1581)
+	at scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	at scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 27 more
+
+2023.10.16 17:24:57 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.codeLens(WorkspaceLspService.scala:437)
+	scala.meta.metals.lsp.DelegatingScalaService.codeLens(DelegatingScalaService.scala:150)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:24:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1573)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1572)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 15 more
+
+Oct 16, 2023 5:24:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Oct 16, 2023 5:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2023.10.16 17:24:57 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$1(MetalsLspService.scala:1582)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.foldingRange(MetalsLspService.scala:1581)
+	at scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	at scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 27 more
+
+2023.10.16 17:24:57 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.codeLens(WorkspaceLspService.scala:437)
+	scala.meta.metals.lsp.DelegatingScalaService.codeLens(DelegatingScalaService.scala:150)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1573)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1572)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 15 more
+
+2023.10.16 17:24:59 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:24:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$1(MetalsLspService.scala:1582)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.foldingRange(MetalsLspService.scala:1581)
+	at scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	at scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 27 more
+
+Oct 16, 2023 5:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/ExceptionInInitializerError.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:329)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+2023.10.16 17:25:00 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+Uri: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:670)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/Throwable.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "/*\n * Copyright (c) 1994, 2020, Oracle and/or its affiliates. All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.  Oracle designates this\n * particular file as subject to the \"Classpath\" exception as provided\n * by Oracle in the LICENSE file that accompanied this code.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n * or visit www.oracle.com if you need additional information or have any\n * questions.\n */\n\npackage java.lang;\n\nimport java.io.*;\nimport java.util.*;\n\n/**\n * The {@code Throwable} class is the superclass of all errors and\n * exceptions in the Java language. Only objects that are instances of this\n * class (or one of its subclasses) are thrown by the Java Virtual Machine or\n * can be thrown by the Java {@code throw} statement. Similarly, only\n * this class or one of its subclasses can be the argument type in a\n * {@code catch} clause.\n *\n * For the purposes of compile-time checking of exceptions, {@code\n * Throwable} and any subclass of {@code Throwable} that is not also a\n * subclass of either {@link RuntimeException} or {@link Error} are\n * regarded as checked exceptions.\n *\n * \u003cp\u003eInstances of two subclasses, {@link java.lang.Error} and\n * {@link java.lang.Exception}, are conventionally used to indicate\n * that exceptional situations have occurred. Typically, these instances\n * are freshly created in the context of the exceptional situation so\n * as to include relevant information (such as stack trace data).\n *\n * \u003cp\u003eA throwable contains a snapshot of the execution stack of its\n * thread at the time it was created. It can also contain a message\n * string that gives more information about the error. Over time, a\n * throwable can {@linkplain Throwable#addSuppressed suppress} other\n * throwables from being propagated.  Finally, the throwable can also\n * contain a \u003ci\u003ecause\u003c/i\u003e: another throwable that caused this\n * throwable to be constructed.  The recording of this causal information\n * is referred to as the \u003ci\u003echained exception\u003c/i\u003e facility, as the\n * cause can, itself, have a cause, and so on, leading to a \"chain\" of\n * exceptions, each caused by another.\n *\n * \u003cp\u003eOne reason that a throwable may have a cause is that the class that\n * throws it is built atop a lower layered abstraction, and an operation on\n * the upper layer fails due to a failure in the lower layer.  It would be bad\n * design to let the throwable thrown by the lower layer propagate outward, as\n * it is generally unrelated to the abstraction provided by the upper layer.\n * Further, doing so would tie the API of the upper layer to the details of\n * its implementation, assuming the lower layer\u0027s exception was a checked\n * exception.  Throwing a \"wrapped exception\" (i.e., an exception containing a\n * cause) allows the upper layer to communicate the details of the failure to\n * its caller without incurring either of these shortcomings.  It preserves\n * the flexibility to change the implementation of the upper layer without\n * changing its API (in particular, the set of exceptions thrown by its\n * methods).\n *\n * \u003cp\u003eA second reason that a throwable may have a cause is that the method\n * that throws it must conform to a general-purpose interface that does not\n * permit the method to throw the cause directly.  For example, suppose\n * a persistent collection conforms to the {@link java.util.Collection\n * Collection} interface, and that its persistence is implemented atop\n * {@code java.io}.  Suppose the internals of the {@code add} method\n * can throw an {@link java.io.IOException IOException}.  The implementation\n * can communicate the details of the {@code IOException} to its caller\n * while conforming to the {@code Collection} interface by wrapping the\n * {@code IOException} in an appropriate unchecked exception.  (The\n * specification for the persistent collection should indicate that it is\n * capable of throwing such exceptions.)\n *\n * \u003cp\u003eA cause can be associated with a throwable in two ways: via a\n * constructor that takes the cause as an argument, or via the\n * {@link #initCause(Throwable)} method.  New throwable classes that\n * wish to allow causes to be associated with them should provide constructors\n * that take a cause and delegate (perhaps indirectly) to one of the\n * {@code Throwable} constructors that takes a cause.\n *\n * Because the {@code initCause} method is public, it allows a cause to be\n * associated with any throwable, even a \"legacy throwable\" whose\n * implementation predates the addition of the exception chaining mechanism to\n * {@code Throwable}.\n *\n * \u003cp\u003eBy convention, class {@code Throwable} and its subclasses have two\n * constructors, one that takes no arguments and one that takes a\n * {@code String} argument that can be used to produce a detail message.\n * Further, those subclasses that might likely have a cause associated with\n * them should have two more constructors, one that takes a\n * {@code Throwable} (the cause), and one that takes a\n * {@code String} (the detail message) and a {@code Throwable} (the\n * cause).\n *\n * @author  Josh Bloch (Added exception chaining and programmatic access to\n *          stack trace in 1.4.)\n * @jls 11.2 Compile-Time Checking of Exceptions\n * @since 1.0\n */\npublic class Throwable implements Serializable {\n    /** use serialVersionUID from JDK 1.0.2 for interoperability */\n    @java.io.Serial\n    private static final long serialVersionUID \u003d -3042686055658047285L;\n\n    /**\n     * The JVM saves some indication of the stack backtrace in this slot.\n     */\n    private transient Object backtrace;\n\n    /**\n     * Specific details about the Throwable.  For example, for\n     * {@code FileNotFoundException}, this contains the name of\n     * the file that could not be found.\n     *\n     * @serial\n     */\n    private String detailMessage;\n\n\n    /**\n     * Holder class to defer initializing sentinel objects only used\n     * for serialization.\n     */\n    private static class SentinelHolder {\n        /**\n         * {@linkplain #setStackTrace(StackTraceElement[]) Setting the\n         * stack trace} to a one-element array containing this sentinel\n         * value indicates future attempts to set the stack trace will be\n         * ignored.  The sentinel is equal to the result of calling:\u003cbr\u003e\n         * {@code new StackTraceElement(\"\", \"\", null, Integer.MIN_VALUE)}\n         */\n        public static final StackTraceElement STACK_TRACE_ELEMENT_SENTINEL \u003d\n            new StackTraceElement(\"\", \"\", null, Integer.MIN_VALUE);\n\n        /**\n         * Sentinel value used in the serial form to indicate an immutable\n         * stack trace.\n         */\n        public static final StackTraceElement[] STACK_TRACE_SENTINEL \u003d\n            new StackTraceElement[] {STACK_TRACE_ELEMENT_SENTINEL};\n    }\n\n    /**\n     * A shared value for an empty stack.\n     */\n    private static final StackTraceElement[] UNASSIGNED_STACK \u003d new StackTraceElement[0];\n\n    /*\n     * To allow Throwable objects to be made immutable and safely\n     * reused by the JVM, such as OutOfMemoryErrors, fields of\n     * Throwable that are writable in response to user actions, cause,\n     * stackTrace, and suppressedExceptions obey the following\n     * protocol:\n     *\n     * 1) The fields are initialized to a non-null sentinel value\n     * which indicates the value has logically not been set.\n     *\n     * 2) Writing a null to the field indicates further writes\n     * are forbidden\n     *\n     * 3) The sentinel value may be replaced with another non-null\n     * value.\n     *\n     * For example, implementations of the HotSpot JVM have\n     * preallocated OutOfMemoryError objects to provide for better\n     * diagnosability of that situation.  These objects are created\n     * without calling the constructor for that class and the fields\n     * in question are initialized to null.  To support this\n     * capability, any new fields added to Throwable that require\n     * being initialized to a non-null value require a coordinated JVM\n     * change.\n     */\n\n    /**\n     * The throwable that caused this throwable to get thrown, or null if this\n     * throwable was not caused by another throwable, or if the causative\n     * throwable is unknown.  If this field is equal to this throwable itself,\n     * it indicates that the cause of this throwable has not yet been\n     * initialized.\n     *\n     * @serial\n     * @since 1.4\n     */\n    private Throwable cause \u003d this;\n\n    /**\n     * The stack trace, as returned by {@link #getStackTrace()}.\n     *\n     * The field is initialized to a zero-length array.  A {@code\n     * null} value of this field indicates subsequent calls to {@link\n     * #setStackTrace(StackTraceElement[])} and {@link\n     * #fillInStackTrace()} will be no-ops.\n     *\n     * @serial\n     * @since 1.4\n     */\n    private StackTraceElement[] stackTrace \u003d UNASSIGNED_STACK;\n\n    /**\n     * The JVM code sets the depth of the backtrace for later retrieval\n     */\n    private transient int depth;\n\n    // Setting this static field introduces an acceptable\n    // initialization dependency on a few java.util classes.\n    private static final List\u003cThrowable\u003e SUPPRESSED_SENTINEL \u003d Collections.emptyList();\n\n    /**\n     * The list of suppressed exceptions, as returned by {@link\n     * #getSuppressed()}.  The list is initialized to a zero-element\n     * unmodifiable sentinel list.  When a serialized Throwable is\n     * read in, if the {@code suppressedExceptions} field points to a\n     * zero-element list, the field is reset to the sentinel value.\n     *\n     * @serial\n     * @since 1.7\n     */\n    @SuppressWarnings(\"serial\") // Not statically typed as Serializable\n    private List\u003cThrowable\u003e suppressedExceptions \u003d SUPPRESSED_SENTINEL;\n\n    /** Message for trying to suppress a null exception. */\n    private static final String NULL_CAUSE_MESSAGE \u003d \"Cannot suppress a null exception.\";\n\n    /** Message for trying to suppress oneself. */\n    private static final String SELF_SUPPRESSION_MESSAGE \u003d \"Self-suppression not permitted\";\n\n    /** Caption  for labeling causative exception stack traces */\n    private static final String CAUSE_CAPTION \u003d \"Caused by: \";\n\n    /** Caption for labeling suppressed exception stack traces */\n    private static final String SUPPRESSED_CAPTION \u003d \"Suppressed: \";\n\n    /**\n     * Constructs a new throwable with {@code null} as its detail message.\n     * The cause is not initialized, and may subsequently be initialized by a\n     * call to {@link #initCause}.\n     *\n     * \u003cp\u003eThe {@link #fillInStackTrace()} method is called to initialize\n     * the stack trace data in the newly created throwable.\n     */\n    public Throwable() {\n        fillInStackTrace();\n    }\n\n    /**\n     * Constructs a new throwable with the specified detail message.  The\n     * cause is not initialized, and may subsequently be initialized by\n     * a call to {@link #initCause}.\n     *\n     * \u003cp\u003eThe {@link #fillInStackTrace()} method is called to initialize\n     * the stack trace data in the newly created throwable.\n     *\n     * @param   message   the detail message. The detail message is saved for\n     *          later retrieval by the {@link #getMessage()} method.\n     */\n    public Throwable(String message) {\n        fillInStackTrace();\n        detailMessage \u003d message;\n    }\n\n    /**\n     * Constructs a new throwable with the specified detail message and\n     * cause.  \u003cp\u003eNote that the detail message associated with\n     * {@code cause} is \u003ci\u003enot\u003c/i\u003e automatically incorporated in\n     * this throwable\u0027s detail message.\n     *\n     * \u003cp\u003eThe {@link #fillInStackTrace()} method is called to initialize\n     * the stack trace data in the newly created throwable.\n     *\n     * @param  message the detail message (which is saved for later retrieval\n     *         by the {@link #getMessage()} method).\n     * @param  cause the cause (which is saved for later retrieval by the\n     *         {@link #getCause()} method).  (A {@code null} value is\n     *         permitted, and indicates that the cause is nonexistent or\n     *         unknown.)\n     * @since  1.4\n     */\n    public Throwable(String message, Throwable cause) {\n        fillInStackTrace();\n        detailMessage \u003d message;\n        this.cause \u003d cause;\n    }\n\n    /**\n     * Constructs a new throwable with the specified cause and a detail\n     * message of {@code (cause\u003d\u003dnull ? null : cause.toString())} (which\n     * typically contains the class and detail message of {@code cause}).\n     * This constructor is useful for throwables that are little more than\n     * wrappers for other throwables (for example, {@link\n     * java.security.PrivilegedActionException}).\n     *\n     * \u003cp\u003eThe {@link #fillInStackTrace()} method is called to initialize\n     * the stack trace data in the newly created throwable.\n     *\n     * @param  cause the cause (which is saved for later retrieval by the\n     *         {@link #getCause()} method).  (A {@code null} value is\n     *         permitted, and indicates that the cause is nonexistent or\n     *         unknown.)\n     * @since  1.4\n     */\n    public Throwable(Throwable cause) {\n        fillInStackTrace();\n        detailMessage \u003d (cause\u003d\u003dnull ? null : cause.toString());\n        this.cause \u003d cause;\n    }\n\n    /**\n     * Constructs a new throwable with the specified detail message,\n     * cause, {@linkplain #addSuppressed suppression} enabled or\n     * disabled, and writable stack trace enabled or disabled.  If\n     * suppression is disabled, {@link #getSuppressed} for this object\n     * will return a zero-length array and calls to {@link\n     * #addSuppressed} that would otherwise append an exception to the\n     * suppressed list will have no effect.  If the writable stack\n     * trace is false, this constructor will not call {@link\n     * #fillInStackTrace()}, a {@code null} will be written to the\n     * {@code stackTrace} field, and subsequent calls to {@code\n     * fillInStackTrace} and {@link\n     * #setStackTrace(StackTraceElement[])} will not set the stack\n     * trace.  If the writable stack trace is false, {@link\n     * #getStackTrace} will return a zero length array.\n     *\n     * \u003cp\u003eNote that the other constructors of {@code Throwable} treat\n     * suppression as being enabled and the stack trace as being\n     * writable.  Subclasses of {@code Throwable} should document any\n     * conditions under which suppression is disabled and document\n     * conditions under which the stack trace is not writable.\n     * Disabling of suppression should only occur in exceptional\n     * circumstances where special requirements exist, such as a\n     * virtual machine reusing exception objects under low-memory\n     * situations.  Circumstances where a given exception object is\n     * repeatedly caught and rethrown, such as to implement control\n     * flow between two sub-systems, is another situation where\n     * immutable throwable objects would be appropriate.\n     *\n     * @param  message the detail message.\n     * @param cause the cause.  (A {@code null} value is permitted,\n     * and indicates that the cause is nonexistent or unknown.)\n     * @param enableSuppression whether or not suppression is enabled or disabled\n     * @param writableStackTrace whether or not the stack trace should be\n     *                           writable\n     *\n     * @see OutOfMemoryError\n     * @see NullPointerException\n     * @see ArithmeticException\n     * @since 1.7\n     */\n    protected Throwable(String message, Throwable cause,\n                        boolean enableSuppression,\n                        boolean writableStackTrace) {\n        if (writableStackTrace) {\n            fillInStackTrace();\n        } else {\n            stackTrace \u003d null;\n        }\n        detailMessage \u003d message;\n        this.cause \u003d cause;\n        if (!enableSuppression)\n            suppressedExceptions \u003d null;\n    }\n\n    /**\n     * Returns the detail message string of this throwable.\n     *\n     * @return  the detail message string of this {@code Throwable} instance\n     *          (which may be {@code null}).\n     */\n    public String getMessage() {\n        return detailMessage;\n    }\n\n    /**\n     * Creates a localized description of this throwable.\n     * Subclasses may override this method in order to produce a\n     * locale-specific message.  For subclasses that do not override this\n     * method, the default implementation returns the same result as\n     * {@code getMessage()}.\n     *\n     * @return  The localized description of this throwable.\n     * @since   1.1\n     */\n    public String getLocalizedMessage() {\n        return getMessage();\n    }\n\n    /**\n     * Returns the cause of this throwable or {@code null} if the\n     * cause is nonexistent or unknown.  (The cause is the throwable that\n     * caused this throwable to get thrown.)\n     *\n     * \u003cp\u003eThis implementation returns the cause that was supplied via one of\n     * the constructors requiring a {@code Throwable}, or that was set after\n     * creation with the {@link #initCause(Throwable)} method.  While it is\n     * typically unnecessary to override this method, a subclass can override\n     * it to return a cause set by some other means.  This is appropriate for\n     * a \"legacy chained throwable\" that predates the addition of chained\n     * exceptions to {@code Throwable}.  Note that it is \u003ci\u003enot\u003c/i\u003e\n     * necessary to override any of the {@code PrintStackTrace} methods,\n     * all of which invoke the {@code getCause} method to determine the\n     * cause of a throwable.\n     *\n     * @return  the cause of this throwable or {@code null} if the\n     *          cause is nonexistent or unknown.\n     * @since 1.4\n     */\n    public synchronized Throwable getCause() {\n        return (cause\u003d\u003dthis ? null : cause);\n    }\n\n    /**\n     * Initializes the \u003ci\u003ecause\u003c/i\u003e of this throwable to the specified value.\n     * (The cause is the throwable that caused this throwable to get thrown.)\n     *\n     * \u003cp\u003eThis method can be called at most once.  It is generally called from\n     * within the constructor, or immediately after creating the\n     * throwable.  If this throwable was created\n     * with {@link #Throwable(Throwable)} or\n     * {@link #Throwable(String,Throwable)}, this method cannot be called\n     * even once.\n     *\n     * \u003cp\u003eAn example of using this method on a legacy throwable type\n     * without other support for setting the cause is:\n     *\n     * \u003cpre\u003e\n     * try {\n     *     lowLevelOp();\n     * } catch (LowLevelException le) {\n     *     throw (HighLevelException)\n     *           new HighLevelException().initCause(le); // Legacy constructor\n     * }\n     * \u003c/pre\u003e\n     *\n     * @param  cause the cause (which is saved for later retrieval by the\n     *         {@link #getCause()} method).  (A {@code null} value is\n     *         permitted, and indicates that the cause is nonexistent or\n     *         unknown.)\n     * @return  a reference to this {@code Throwable} instance.\n     * @throws IllegalArgumentException if {@code cause} is this\n     *         throwable.  (A throwable cannot be its own cause.)\n     * @throws IllegalStateException if this throwable was\n     *         created with {@link #Throwable(Throwable)} or\n     *         {@link #Throwable(String,Throwable)}, or this method has already\n     *         been called on this throwable.\n     * @since  1.4\n     */\n    public synchronized Throwable initCause(Throwable cause) {\n        if (this.cause !\u003d this)\n            throw new IllegalStateException(\"Can\u0027t overwrite cause with \" +\n                                            Objects.toString(cause, \"a null\"), this);\n        if (cause \u003d\u003d this)\n            throw new IllegalArgumentException(\"Self-causation not permitted\", this);\n        this.cause \u003d cause;\n        return this;\n    }\n\n    /*\n     * This is called by readObject of a few exceptions such as\n     * ClassNotFoundException and ExceptionInInitializerError to deserialize\n     * a stream output from an older runtime version where the cause may\n     * have set to null.\n     */\n    final void setCause(Throwable t) {\n        this.cause \u003d t;\n    }\n\n    /**\n     * Returns a short description of this throwable.\n     * The result is the concatenation of:\n     * \u003cul\u003e\n     * \u003cli\u003e the {@linkplain Class#getName() name} of the class of this object\n     * \u003cli\u003e \": \" (a colon and a space)\n     * \u003cli\u003e the result of invoking this object\u0027s {@link #getLocalizedMessage}\n     *      method\n     * \u003c/ul\u003e\n     * If {@code getLocalizedMessage} returns {@code null}, then just\n     * the class name is returned.\n     *\n     * @return a string representation of this throwable.\n     */\n    public String toString() {\n        String s \u003d getClass().getName();\n        String message \u003d getLocalizedMessage();\n        return (message !\u003d null) ? (s + \": \" + message) : s;\n    }\n\n    /**\n     * Prints this throwable and its backtrace to the\n     * standard error stream. This method prints a stack trace for this\n     * {@code Throwable} object on the error output stream that is\n     * the value of the field {@code System.err}. The first line of\n     * output contains the result of the {@link #toString()} method for\n     * this object.  Remaining lines represent data previously recorded by\n     * the method {@link #fillInStackTrace()}. The format of this\n     * information depends on the implementation, but the following\n     * example may be regarded as typical:\n     * \u003cblockquote\u003e\u003cpre\u003e\n     * java.lang.NullPointerException\n     *         at MyClass.mash(MyClass.java:9)\n     *         at MyClass.crunch(MyClass.java:6)\n     *         at MyClass.main(MyClass.java:3)\n     * \u003c/pre\u003e\u003c/blockquote\u003e\n     * This example was produced by running the program:\n     * \u003cpre\u003e\n     * class MyClass {\n     *     public static void main(String[] args) {\n     *         crunch(null);\n     *     }\n     *     static void crunch(int[] a) {\n     *         mash(a);\n     *     }\n     *     static void mash(int[] b) {\n     *         System.out.println(b[0]);\n     *     }\n     * }\n     * \u003c/pre\u003e\n     * The backtrace for a throwable with an initialized, non-null cause\n     * should generally include the backtrace for the cause.  The format\n     * of this information depends on the implementation, but the following\n     * example may be regarded as typical:\n     * \u003cpre\u003e\n     * HighLevelException: MidLevelException: LowLevelException\n     *         at Junk.a(Junk.java:13)\n     *         at Junk.main(Junk.java:4)\n     * Caused by: MidLevelException: LowLevelException\n     *         at Junk.c(Junk.java:23)\n     *         at Junk.b(Junk.java:17)\n     *         at Junk.a(Junk.java:11)\n     *         ... 1 more\n     * Caused by: LowLevelException\n     *         at Junk.e(Junk.java:30)\n     *         at Junk.d(Junk.java:27)\n     *         at Junk.c(Junk.java:21)\n     *         ... 3 more\n     * \u003c/pre\u003e\n     * Note the presence of lines containing the characters {@code \"...\"}.\n     * These lines indicate that the remainder of the stack trace for this\n     * exception matches the indicated number of frames from the bottom of the\n     * stack trace of the exception that was caused by this exception (the\n     * \"enclosing\" exception).  This shorthand can greatly reduce the length\n     * of the output in the common case where a wrapped exception is thrown\n     * from same method as the \"causative exception\" is caught.  The above\n     * example was produced by running the program:\n     * \u003cpre\u003e\n     * public class Junk {\n     *     public static void main(String args[]) {\n     *         try {\n     *             a();\n     *         } catch(HighLevelException e) {\n     *             e.printStackTrace();\n     *         }\n     *     }\n     *     static void a() throws HighLevelException {\n     *         try {\n     *             b();\n     *         } catch(MidLevelException e) {\n     *             throw new HighLevelException(e);\n     *         }\n     *     }\n     *     static void b() throws MidLevelException {\n     *         c();\n     *     }\n     *     static void c() throws MidLevelException {\n     *         try {\n     *             d();\n     *         } catch(LowLevelException e) {\n     *             throw new MidLevelException(e);\n     *         }\n     *     }\n     *     static void d() throws LowLevelException {\n     *        e();\n     *     }\n     *     static void e() throws LowLevelException {\n     *         throw new LowLevelException();\n     *     }\n     * }\n     *\n     * class HighLevelException extends Exception {\n     *     HighLevelException(Throwable cause) { super(cause); }\n     * }\n     *\n     * class MidLevelException extends Exception {\n     *     MidLevelException(Throwable cause)  { super(cause); }\n     * }\n     *\n     * class LowLevelException extends Exception {\n     * }\n     * \u003c/pre\u003e\n     * As of release 7, the platform supports the notion of\n     * \u003ci\u003esuppressed exceptions\u003c/i\u003e (in conjunction with the {@code\n     * try}-with-resources statement). Any exceptions that were\n     * suppressed in order to deliver an exception are printed out\n     * beneath the stack trace.  The format of this information\n     * depends on the implementation, but the following example may be\n     * regarded as typical:\n     *\n     * \u003cpre\u003e\n     * Exception in thread \"main\" java.lang.Exception: Something happened\n     *  at Foo.bar(Foo.java:10)\n     *  at Foo.main(Foo.java:5)\n     *  Suppressed: Resource$CloseFailException: Resource ID \u003d 0\n     *          at Resource.close(Resource.java:26)\n     *          at Foo.bar(Foo.java:9)\n     *          ... 1 more\n     * \u003c/pre\u003e\n     * Note that the \"... n more\" notation is used on suppressed exceptions\n     * just as it is used on causes. Unlike causes, suppressed exceptions are\n     * indented beyond their \"containing exceptions.\"\n     *\n     * \u003cp\u003eAn exception can have both a cause and one or more suppressed\n     * exceptions:\n     * \u003cpre\u003e\n     * Exception in thread \"main\" java.lang.Exception: Main block\n     *  at Foo3.main(Foo3.java:7)\n     *  Suppressed: Resource$CloseFailException: Resource ID \u003d 2\n     *          at Resource.close(Resource.java:26)\n     *          at Foo3.main(Foo3.java:5)\n     *  Suppressed: Resource$CloseFailException: Resource ID \u003d 1\n     *          at Resource.close(Resource.java:26)\n     *          at Foo3.main(Foo3.java:5)\n     * Caused by: java.lang.Exception: I did it\n     *  at Foo3.main(Foo3.java:8)\n     * \u003c/pre\u003e\n     * Likewise, a suppressed exception can have a cause:\n     * \u003cpre\u003e\n     * Exception in thread \"main\" java.lang.Exception: Main block\n     *  at Foo4.main(Foo4.java:6)\n     *  Suppressed: Resource2$CloseFailException: Resource ID \u003d 1\n     *          at Resource2.close(Resource2.java:20)\n     *          at Foo4.main(Foo4.java:5)\n     *  Caused by: java.lang.Exception: Rats, you caught me\n     *          at Resource2$CloseFailException.\u0026lt;init\u0026gt;(Resource2.java:45)\n     *          ... 2 more\n     * \u003c/pre\u003e\n     */\n    public void printStackTrace() {\n        printStackTrace(System.err);\n    }\n\n    /**\n     * Prints this throwable and its backtrace to the specified print stream.\n     *\n     * @param s {@code PrintStream} to use for output\n     */\n    public void printStackTrace(PrintStream s) {\n        printStackTrace(new WrappedPrintStream(s));\n    }\n\n    private void printStackTrace(PrintStreamOrWriter s) {\n        // Guard against malicious overrides of Throwable.equals by\n        // using a Set with identity equality semantics.\n        Set\u003cThrowable\u003e dejaVu \u003d Collections.newSetFromMap(new IdentityHashMap\u003c\u003e());\n        dejaVu.add(this);\n\n        synchronized (s.lock()) {\n            // Print our stack trace\n            s.println(this);\n            StackTraceElement[] trace \u003d getOurStackTrace();\n            for (StackTraceElement traceElement : trace)\n                s.println(\"\\tat \" + traceElement);\n\n            // Print suppressed exceptions, if any\n            for (Throwable se : getSuppressed())\n                se.printEnclosedStackTrace(s, trace, SUPPRESSED_CAPTION, \"\\t\", dejaVu);\n\n            // Print cause, if any\n            Throwable ourCause \u003d getCause();\n            if (ourCause !\u003d null)\n                ourCause.printEnclosedStackTrace(s, trace, CAUSE_CAPTION, \"\", dejaVu);\n        }\n    }\n\n    /**\n     * Print our stack trace as an enclosed exception for the specified\n     * stack trace.\n     */\n    private void printEnclosedStackTrace(PrintStreamOrWriter s,\n                                         StackTraceElement[] enclosingTrace,\n                                         String caption,\n                                         String prefix,\n                                         Set\u003cThrowable\u003e dejaVu) {\n        assert Thread.holdsLock(s.lock());\n        if (dejaVu.contains(this)) {\n            s.println(prefix + caption + \"[CIRCULAR REFERENCE: \" + this + \"]\");\n        } else {\n            dejaVu.add(this);\n            // Compute number of frames in common between this and enclosing trace\n            StackTraceElement[] trace \u003d getOurStackTrace();\n            int m \u003d trace.length - 1;\n            int n \u003d enclosingTrace.length - 1;\n            while (m \u003e\u003d 0 \u0026\u0026 n \u003e\u003d0 \u0026\u0026 trace[m].equals(enclosingTrace[n])) {\n                m--; n--;\n            }\n            int framesInCommon \u003d trace.length - 1 - m;\n\n            // Print our stack trace\n            s.println(prefix + caption + this);\n            for (int i \u003d 0; i \u003c\u003d m; i++)\n                s.println(prefix + \"\\tat \" + trace[i]);\n            if (framesInCommon !\u003d 0)\n                s.println(prefix + \"\\t... \" + framesInCommon + \" more\");\n\n            // Print suppressed exceptions, if any\n            for (Throwable se : getSuppressed())\n                se.printEnclosedStackTrace(s, trace, SUPPRESSED_CAPTION,\n                                           prefix +\"\\t\", dejaVu);\n\n            // Print cause, if any\n            Throwable ourCause \u003d getCause();\n            if (ourCause !\u003d null)\n                ourCause.printEnclosedStackTrace(s, trace, CAUSE_CAPTION, prefix, dejaVu);\n        }\n    }\n\n    /**\n     * Prints this throwable and its backtrace to the specified\n     * print writer.\n     *\n     * @param s {@code PrintWriter} to use for output\n     * @since   1.1\n     */\n    public void printStackTrace(PrintWriter s) {\n        printStackTrace(new WrappedPrintWriter(s));\n    }\n\n    /**\n     * Wrapper class for PrintStream and PrintWriter to enable a single\n     * implementation of printStackTrace.\n     */\n    private abstract static class PrintStreamOrWriter {\n        /** Returns the object to be locked when using this StreamOrWriter */\n        abstract Object lock();\n\n        /** Prints the specified string as a line on this StreamOrWriter */\n        abstract void println(Object o);\n    }\n\n    private static class WrappedPrintStream extends PrintStreamOrWriter {\n        private final PrintStream printStream;\n\n        WrappedPrintStream(PrintStream printStream) {\n            this.printStream \u003d printStream;\n        }\n\n        Object lock() {\n            return printStream;\n        }\n\n        void println(Object o) {\n            printStream.println(o);\n        }\n    }\n\n    private static class WrappedPrintWriter extends PrintStreamOrWriter {\n        private final PrintWriter printWriter;\n\n        WrappedPrintWriter(PrintWriter printWriter) {\n            this.printWriter \u003d printWriter;\n        }\n\n        Object lock() {\n            return printWriter;\n        }\n\n        void println(Object o) {\n            printWriter.println(o);\n        }\n    }\n\n    /**\n     * Fills in the execution stack trace. This method records within this\n     * {@code Throwable} object information about the current state of\n     * the stack frames for the current thread.\n     *\n     * \u003cp\u003eIf the stack trace of this {@code Throwable} {@linkplain\n     * Throwable#Throwable(String, Throwable, boolean, boolean) is not\n     * writable}, calling this method has no effect.\n     *\n     * @return  a reference to this {@code Throwable} instance.\n     * @see     java.lang.Throwable#printStackTrace()\n     */\n    public synchronized Throwable fillInStackTrace() {\n        if (stackTrace !\u003d null ||\n            backtrace !\u003d null /* Out of protocol state */ ) {\n            fillInStackTrace(0);\n            stackTrace \u003d UNASSIGNED_STACK;\n        }\n        return this;\n    }\n\n    private native Throwable fillInStackTrace(int dummy);\n\n    /**\n     * Provides programmatic access to the stack trace information printed by\n     * {@link #printStackTrace()}.  Returns an array of stack trace elements,\n     * each representing one stack frame.  The zeroth element of the array\n     * (assuming the array\u0027s length is non-zero) represents the top of the\n     * stack, which is the last method invocation in the sequence.  Typically,\n     * this is the point at which this throwable was created and thrown.\n     * The last element of the array (assuming the array\u0027s length is non-zero)\n     * represents the bottom of the stack, which is the first method invocation\n     * in the sequence.\n     *\n     * \u003cp\u003eSome virtual machines may, under some circumstances, omit one\n     * or more stack frames from the stack trace.  In the extreme case,\n     * a virtual machine that has no stack trace information concerning\n     * this throwable is permitted to return a zero-length array from this\n     * method.  Generally speaking, the array returned by this method will\n     * contain one element for every frame that would be printed by\n     * {@code printStackTrace}.  Writes to the returned array do not\n     * affect future calls to this method.\n     *\n     * @return an array of stack trace elements representing the stack trace\n     *         pertaining to this throwable.\n     * @since  1.4\n     */\n    public StackTraceElement[] getStackTrace() {\n        return getOurStackTrace().clone();\n    }\n\n    private synchronized StackTraceElement[] getOurStackTrace() {\n        // Initialize stack trace field with information from\n        // backtrace if this is the first call to this method\n        if (stackTrace \u003d\u003d UNASSIGNED_STACK ||\n            (stackTrace \u003d\u003d null \u0026\u0026 backtrace !\u003d null) /* Out of protocol state */) {\n            stackTrace \u003d StackTraceElement.of(this, depth);\n        } else if (stackTrace \u003d\u003d null) {\n            return UNASSIGNED_STACK;\n        }\n        return stackTrace;\n    }\n\n    /**\n     * Sets the stack trace elements that will be returned by\n     * {@link #getStackTrace()} and printed by {@link #printStackTrace()}\n     * and related methods.\n     *\n     * This method, which is designed for use by RPC frameworks and other\n     * advanced systems, allows the client to override the default\n     * stack trace that is either generated by {@link #fillInStackTrace()}\n     * when a throwable is constructed or deserialized when a throwable is\n     * read from a serialization stream.\n     *\n     * \u003cp\u003eIf the stack trace of this {@code Throwable} {@linkplain\n     * Throwable#Throwable(String, Throwable, boolean, boolean) is not\n     * writable}, calling this method has no effect other than\n     * validating its argument.\n     *\n     * @param   stackTrace the stack trace elements to be associated with\n     * this {@code Throwable}.  The specified array is copied by this\n     * call; changes in the specified array after the method invocation\n     * returns will have no affect on this {@code Throwable}\u0027s stack\n     * trace.\n     *\n     * @throws NullPointerException if {@code stackTrace} is\n     *         {@code null} or if any of the elements of\n     *         {@code stackTrace} are {@code null}\n     *\n     * @since  1.4\n     */\n    public void setStackTrace(StackTraceElement[] stackTrace) {\n        // Validate argument\n        StackTraceElement[] defensiveCopy \u003d stackTrace.clone();\n        for (int i \u003d 0; i \u003c defensiveCopy.length; i++) {\n            if (defensiveCopy[i] \u003d\u003d null)\n                throw new NullPointerException(\"stackTrace[\" + i + \"]\");\n        }\n\n        synchronized (this) {\n            if (this.stackTrace \u003d\u003d null \u0026\u0026 // Immutable stack\n                backtrace \u003d\u003d null) // Test for out of protocol state\n                return;\n            this.stackTrace \u003d defensiveCopy;\n        }\n    }\n\n    /**\n     * Reads a {@code Throwable} from a stream, enforcing\n     * well-formedness constraints on fields.  Null entries and\n     * self-pointers are not allowed in the list of {@code\n     * suppressedExceptions}.  Null entries are not allowed for stack\n     * trace elements.  A null stack trace in the serial form results\n     * in a zero-length stack element array. A single-element stack\n     * trace whose entry is equal to {@code new StackTraceElement(\"\",\n     * \"\", null, Integer.MIN_VALUE)} results in a {@code null} {@code\n     * stackTrace} field.\n     *\n     * Note that there are no constraints on the value the {@code\n     * cause} field can hold; both {@code null} and {@code this} are\n     * valid values for the field.\n     *\n     * @param  s the {@code ObjectInputStream} from which data is read\n     * @throws IOException if an I/O error occurs\n     * @throws ClassNotFoundException if a serialized class cannot be loaded\n     */\n    @java.io.Serial\n    private void readObject(ObjectInputStream s)\n        throws IOException, ClassNotFoundException {\n        s.defaultReadObject();     // read in all fields\n\n        // Set suppressed exceptions and stack trace elements fields\n        // to marker values until the contents from the serial stream\n        // are validated.\n        List\u003cThrowable\u003e candidateSuppressedExceptions \u003d suppressedExceptions;\n        suppressedExceptions \u003d SUPPRESSED_SENTINEL;\n\n        StackTraceElement[] candidateStackTrace \u003d stackTrace;\n        stackTrace \u003d UNASSIGNED_STACK.clone();\n\n        if (candidateSuppressedExceptions !\u003d null) {\n            int suppressedSize \u003d validateSuppressedExceptionsList(candidateSuppressedExceptions);\n            if (suppressedSize \u003e 0) { // Copy valid Throwables to new list\n                var suppList  \u003d new ArrayList\u003cThrowable\u003e(Math.min(100, suppressedSize));\n\n                for (Throwable t : candidateSuppressedExceptions) {\n                    // Enforce constraints on suppressed exceptions in\n                    // case of corrupt or malicious stream.\n                    Objects.requireNonNull(t, NULL_CAUSE_MESSAGE);\n                    if (t \u003d\u003d this)\n                        throw new IllegalArgumentException(SELF_SUPPRESSION_MESSAGE);\n                    suppList.add(t);\n                }\n                // If there are any invalid suppressed exceptions,\n                // implicitly use the sentinel value assigned earlier.\n                suppressedExceptions \u003d suppList;\n            }\n        } else {\n            suppressedExceptions \u003d null;\n        }\n\n        /*\n         * For zero-length stack traces, use a clone of\n         * UNASSIGNED_STACK rather than UNASSIGNED_STACK itself to\n         * allow identity comparison against UNASSIGNED_STACK in\n         * getOurStackTrace.  The identity of UNASSIGNED_STACK in\n         * stackTrace indicates to the getOurStackTrace method that\n         * the stackTrace needs to be constructed from the information\n         * in backtrace.\n         */\n        if (candidateStackTrace !\u003d null) {\n            // Work from a clone of the candidateStackTrace to ensure\n            // consistency of checks.\n            candidateStackTrace \u003d candidateStackTrace.clone();\n            if (candidateStackTrace.length \u003e\u003d 1) {\n                if (candidateStackTrace.length \u003d\u003d 1 \u0026\u0026\n                        // Check for the marker of an immutable stack trace\n                        SentinelHolder.STACK_TRACE_ELEMENT_SENTINEL.equals(candidateStackTrace[0])) {\n                    stackTrace \u003d null;\n                } else { // Verify stack trace elements are non-null.\n                    for (StackTraceElement ste : candidateStackTrace) {\n                        Objects.requireNonNull(ste, \"null StackTraceElement in serial stream.\");\n                    }\n                    stackTrace \u003d candidateStackTrace;\n                }\n            }\n        }\n        // A null stackTrace field in the serial form can result from\n        // an exception serialized without that field in older JDK\n        // releases; treat such exceptions as having empty stack\n        // traces by leaving stackTrace assigned to a clone of\n        // UNASSIGNED_STACK.\n    }\n\n    private int validateSuppressedExceptionsList(List\u003cThrowable\u003e deserSuppressedExceptions)\n        throws IOException {\n        if (!Object.class.getModule().\n            equals(deserSuppressedExceptions.getClass().getModule())) {\n            throw new StreamCorruptedException(\"List implementation not in base module.\");\n        } else {\n            int size \u003d deserSuppressedExceptions.size();\n            if (size \u003c 0) {\n                throw new StreamCorruptedException(\"Negative list size reported.\");\n            }\n            return size;\n        }\n    }\n\n    /**\n     * Write a {@code Throwable} object to a stream.\n     *\n     * A {@code null} stack trace field is represented in the serial\n     * form as a one-element array whose element is equal to {@code\n     * new StackTraceElement(\"\", \"\", null, Integer.MIN_VALUE)}.\n     *\n     * @param  s the {@code ObjectOutputStream} to which data is written\n     * @throws IOException if an I/O error occurs\n     */\n    @java.io.Serial\n    private synchronized void writeObject(ObjectOutputStream s)\n        throws IOException {\n        // Ensure that the stackTrace field is initialized to a\n        // non-null value, if appropriate.  As of JDK 7, a null stack\n        // trace field is a valid value indicating the stack trace\n        // should not be set.\n        getOurStackTrace();\n\n        StackTraceElement[] oldStackTrace \u003d stackTrace;\n        try {\n            if (stackTrace \u003d\u003d null)\n                stackTrace \u003d SentinelHolder.STACK_TRACE_SENTINEL;\n            s.defaultWriteObject();\n        } finally {\n            stackTrace \u003d oldStackTrace;\n        }\n    }\n\n    /**\n     * Appends the specified exception to the exceptions that were\n     * suppressed in order to deliver this exception. This method is\n     * thread-safe and typically called (automatically and implicitly)\n     * by the {@code try}-with-resources statement.\n     *\n     * \u003cp\u003eThe suppression behavior is enabled \u003cem\u003eunless\u003c/em\u003e disabled\n     * {@linkplain #Throwable(String, Throwable, boolean, boolean) via\n     * a constructor}.  When suppression is disabled, this method does\n     * nothing other than to validate its argument.\n     *\n     * \u003cp\u003eNote that when one exception {@linkplain\n     * #initCause(Throwable) causes} another exception, the first\n     * exception is usually caught and then the second exception is\n     * thrown in response.  In other words, there is a causal\n     * connection between the two exceptions.\n     *\n     * In contrast, there are situations where two independent\n     * exceptions can be thrown in sibling code blocks, in particular\n     * in the {@code try} block of a {@code try}-with-resources\n     * statement and the compiler-generated {@code finally} block\n     * which closes the resource.\n     *\n     * In these situations, only one of the thrown exceptions can be\n     * propagated.  In the {@code try}-with-resources statement, when\n     * there are two such exceptions, the exception originating from\n     * the {@code try} block is propagated and the exception from the\n     * {@code finally} block is added to the list of exceptions\n     * suppressed by the exception from the {@code try} block.  As an\n     * exception unwinds the stack, it can accumulate multiple\n     * suppressed exceptions.\n     *\n     * \u003cp\u003eAn exception may have suppressed exceptions while also being\n     * caused by another exception.  Whether or not an exception has a\n     * cause is semantically known at the time of its creation, unlike\n     * whether or not an exception will suppress other exceptions\n     * which is typically only determined after an exception is\n     * thrown.\n     *\n     * \u003cp\u003eNote that programmer written code is also able to take\n     * advantage of calling this method in situations where there are\n     * multiple sibling exceptions and only one can be propagated.\n     *\n     * @param exception the exception to be added to the list of\n     *        suppressed exceptions\n     * @throws IllegalArgumentException if {@code exception} is this\n     *         throwable; a throwable cannot suppress itself.\n     * @throws NullPointerException if {@code exception} is {@code null}\n     * @since 1.7\n     */\n    public final synchronized void addSuppressed(Throwable exception) {\n        if (exception \u003d\u003d this)\n            throw new IllegalArgumentException(SELF_SUPPRESSION_MESSAGE, exception);\n\n        Objects.requireNonNull(exception, NULL_CAUSE_MESSAGE);\n\n        if (suppressedExceptions \u003d\u003d null) // Suppressed exceptions not recorded\n            return;\n\n        if (suppressedExceptions \u003d\u003d SUPPRESSED_SENTINEL)\n            suppressedExceptions \u003d new ArrayList\u003c\u003e(1);\n\n        suppressedExceptions.add(exception);\n    }\n\n    private static final Throwable[] EMPTY_THROWABLE_ARRAY \u003d new Throwable[0];\n\n    /**\n     * Returns an array containing all of the exceptions that were\n     * suppressed, typically by the {@code try}-with-resources\n     * statement, in order to deliver this exception.\n     *\n     * If no exceptions were suppressed or {@linkplain\n     * #Throwable(String, Throwable, boolean, boolean) suppression is\n     * disabled}, an empty array is returned.  This method is\n     * thread-safe.  Writes to the returned array do not affect future\n     * calls to this method.\n     *\n     * @return an array containing all of the exceptions that were\n     *         suppressed to deliver this exception.\n     * @since 1.7\n     */\n    public final synchronized Throwable[] getSuppressed() {\n        if (suppressedExceptions \u003d\u003d SUPPRESSED_SENTINEL ||\n            suppressedExceptions \u003d\u003d null)\n            return EMPTY_THROWABLE_ARRAY;\n        else\n            return suppressedExceptions.toArray(EMPTY_THROWABLE_ARRAY);\n    }\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:319)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+Oct 16, 2023 5:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/Throwable.java"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:604)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+2023.10.16 17:25:00 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/Throwable.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$1(MetalsLspService.scala:1582)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.foldingRange(MetalsLspService.scala:1581)
+	at scala.meta.internal.metals.WorkspaceLspService.foldingRange(WorkspaceLspService.scala:442)
+	at scala.meta.metals.lsp.DelegatingScalaService.foldingRange(DelegatingScalaService.scala:155)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 27 more
+
+2023.10.16 17:25:00 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+Uri: jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/Throwable.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.codeLens(WorkspaceLspService.scala:437)
+	scala.meta.metals.lsp.DelegatingScalaService.codeLens(DelegatingScalaService.scala:150)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 16, 2023 5:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1573)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1572)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 15 more
+
+Oct 16, 2023 5:25:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Amazon%20Corretto/jdk17.0.8_8/lib/src.zip%21/java.base/java/lang/Throwable.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:329)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Amazon Corretto/jdk17.0.8_8/lib/src.zip!/java.base/java/lang/Throwable.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+	at java.base/java.net.URI$Parser.parse(URI.java:3183)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+2023.10.16 17:25:09 INFO  Canceling debug proxy for [fp1tests(EX01 - factTest)]
+2023.10.16 17:25:09 INFO  Closing debug server tcp://0.0.0.0:58027
+2023.10.16 17:25:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:25:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:25:27 INFO  Starting debug proxy for [fp1tests(EX01 - factTest)]
+2023.10.16 17:25:28 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58078 .
+2023.10.16 17:25:28 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:25:29 INFO  Canceling debug proxy for [fp1tests(EX01 - factTest)]
+2023.10.16 17:25:29 INFO  Closing debug server tcp://0.0.0.0:58074
+2023.10.16 17:25:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:25:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:25:38 INFO  Starting debug proxy for [fp1tests()]
+2023.10.16 17:25:39 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58092 .
+2023.10.16 17:25:39 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:25:40 INFO  Canceling debug proxy for [fp1tests()]
+2023.10.16 17:25:40 INFO  Closing debug server tcp://0.0.0.0:58088
+2023.10.16 17:26:36 INFO  compiling hw05a (1 scala source)
+2023.10.16 17:26:37 INFO  Deduplicating compilation of hw05a from bsp client 'Metals 1.0.1' (since 3m 10.229s)
+2023.10.16 17:26:37 INFO  compiling hw05a (1 scala source)
+2023.10.16 17:26:37 INFO  time: compiled hw05a in 0.73s
+2023.10.16 17:26:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:26:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:26:42 INFO  Starting debug proxy for [fp1tests(EX10 - otpu)]
+2023.10.16 17:26:43 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58114 .
+2023.10.16 17:26:43 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:26:44 INFO  Canceling debug proxy for [fp1tests(EX10 - otpu)]
+2023.10.16 17:26:44 INFO  Closing debug server tcp://0.0.0.0:58110
+2023.10.16 17:27:48 INFO  Deduplicating compilation of hw05a from bsp client 'Metals 1.0.1' (since 4m 20.76s)
+2023.10.16 17:27:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:27:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:27:52 INFO  Starting debug proxy for [fp1tests(EX10 - otpu)]
+2023.10.16 17:27:52 INFO  Loaded expression compiler in 15 milliseconds
+2023.10.16 17:27:52 INFO  Loaded step filter in 0 milliseconds
+2023.10.16 17:27:55 INFO  Loaded all sources and classes in 2 seconds
+2023.10.16 17:27:56 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58135 .
+2023.10.16 17:27:56 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:28:04 INFO  Canceling debug proxy for [fp1tests(EX10 - otpu)]
+2023.10.16 17:28:04 INFO  Closing debug server tcp://0.0.0.0:58131
+2023.10.16 17:32:29 INFO  compiling hw05a (1 scala source)
+2023.10.16 17:32:29 INFO  time: compiled hw05a in 0.34s
+2023.10.16 17:32:48 INFO  compiling hw05a (1 scala source)
+2023.10.16 17:32:48 INFO  time: compiled hw05a in 0.48s
+2023.10.16 17:32:55 INFO  compiling hw05a (1 scala source)
+2023.10.16 17:32:55 INFO  time: compiled hw05a in 0.4s
+2023.10.16 17:33:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:33:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:33:04 INFO  Starting debug proxy for [fp1tests(EX10 - otpu)]
+2023.10.16 17:33:04 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58188 .
+2023.10.16 17:33:04 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:33:06 INFO  Canceling debug proxy for [fp1tests(EX10 - otpu)]
+2023.10.16 17:33:06 INFO  Closing debug server tcp://0.0.0.0:58184
+2023.10.16 17:33:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.16 17:33:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.16 17:33:17 INFO  Starting debug proxy for [fp1tests()]
+2023.10.16 17:33:17 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58203 .
+2023.10.16 17:33:17 INFO  Attaching to debuggee VM succeeded.
+2023.10.16 17:33:18 INFO  Canceling debug proxy for [fp1tests()]
+2023.10.16 17:33:18 INFO  Closing debug server tcp://0.0.0.0:58199
+2023.10.16 17:40:37 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 17:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 17:40:37 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.16 17:40:37 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 17:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 18:01:13 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 18:01:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 18:01:13 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.16 18:01:13 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.16 18:01:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.16 18:01:14 INFO  compiling hw05a (1 scala source)
+2023.10.16 18:01:15 INFO  time: compiled hw05a in 1.36s
+2023.10.16 18:01:17 INFO  time: Imported build in 3.68s
+2023.10.16 18:01:20 INFO  time: indexed workspace in 2.89s
+2023.10.17 14:39:37 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.17 14:39:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.17 14:39:44 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.17 14:39:44 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.17 14:39:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 09:45:52 INFO  Shutting down server
+2023.10.18 09:45:52 INFO  shutting down Metals
+2023.10.18 17:55:51 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+2023.10.18 17:55:57 INFO  Attempting to connect to the build server...
+2023.10.18 17:55:57 INFO  skipping build import with status 'Installed'
+2023.10.18 17:55:57 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 17:55:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 17:55:59 INFO  Attempting to connect to the build server...
+2023.10.18 17:55:59 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 17:55:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 17:55:59 INFO  time: Connected to build server in 2.14s
+2023.10.18 17:55:59 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.18 17:55:59 INFO  time: Imported build in 0.22s
+2023.10.18 17:56:06 INFO  time: indexed workspace in 6.55s
+2023.10.18 17:56:06 INFO  compiling hw05a (1 scala source)
+2023.10.18 17:56:15 INFO  compiling hw05a-test (2 scala sources)
+2023.10.18 17:56:15 INFO  time: compiled hw05a in 8.67s
+2023.10.18 17:56:19 INFO  time: compiled hw05a-test in 4.22s
+2023.10.18 17:57:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.18 17:57:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.18 17:57:37 INFO  Starting debug proxy for [fp1tests()]
+2023.10.18 17:57:39 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52724 .
+2023.10.18 17:57:39 INFO  Attaching to debuggee VM succeeded.
+2023.10.18 17:57:41 INFO  Canceling debug proxy for [fp1tests()]
+2023.10.18 17:57:41 INFO  Closing debug server tcp://0.0.0.0:52719
+2023.10.18 17:58:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-server.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.10.18 17:58:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\dap-client.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.10.18 17:58:05 INFO  Starting debug proxy for [fp1tests()]
+2023.10.18 17:58:05 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52739 .
+2023.10.18 17:58:05 INFO  Attaching to debuggee VM succeeded.
+2023.10.18 17:58:06 INFO  Canceling debug proxy for [fp1tests()]
+2023.10.18 17:58:06 INFO  Closing debug server tcp://0.0.0.0:52735
+Oct 18, 2023 6:16:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.18 18:16:57 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 18:16:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 18:16:57 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.18 18:16:57 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 18:16:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 18:16:57 INFO  compiling hw05a (1 scala source)
+2023.10.18 18:16:59 INFO  time: compiled hw05a in 1.95s
+2023.10.18 18:18:31 INFO  compiling hw05a (1 scala source)
+2023.10.18 18:18:31 INFO  time: compiled hw05a in 0.76s
+2023.10.18 18:25:04 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 18:25:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 18:25:04 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.18 18:25:04 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 18:25:04 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.18 18:25:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 18:25:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.18 18:25:04 INFO  time: Imported build in 0.24s
+2023.10.18 18:25:11 INFO  time: indexed workspace in 7s
+2023.10.18 19:21:10 INFO  Shutting down server
+2023.10.18 19:21:10 INFO  shutting down Metals
+2023.10.18 19:21:11 INFO  Shut down connection with build server.
+2023.10.18 19:21:11 INFO  Shut down connection with build server.
+Oct 18, 2023 7:21:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.10.18 19:21:12 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.10.29 16:00:41 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\hw05a' for client Visual Studio Code 1.83.1.
+2023.10.29 16:00:43 INFO  Attempting to connect to the build server...
+2023.10.29 16:00:43 INFO  skipping build import with status 'Installed'
+2023.10.29 16:00:43 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:00:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:00:44 INFO  Attempting to connect to the build server...
+2023.10.29 16:00:44 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.29 16:00:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 16:00:44 INFO  time: Connected to build server in 1.25s
+2023.10.29 16:00:44 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 16:00:45 INFO  time: Imported build in 0.29s
+2023.10.29 16:00:55 INFO  time: indexed workspace in 10s
+2023.10.29 16:20:53 INFO  Shutting down server
+2023.10.29 16:20:53 INFO  shutting down Metals
+2023.10.29 16:20:53 INFO  Shut down connection with build server.
+2023.10.29 16:20:53 INFO  Shut down connection with build server.
+2023.10.29 16:20:53 INFO  Exiting server

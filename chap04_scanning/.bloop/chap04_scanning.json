@@ -1,0 +1,174 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "chap04_scanning",
+        "directory": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning",
+        "workspaceDir": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning",
+        "sources": [
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\main\\scala",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\main\\scala-2.12",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\main\\scala-2",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\main\\java",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\target\\scala-2.12\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+        ],
+        "out": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\.bloop\\chap04_scanning",
+        "classesDir": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\.bloop\\chap04_scanning\\scala-2.12\\classes",
+        "resources": [
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\main\\resources",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\target\\scala-2.12\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-compiler.jar",
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-reflect.jar",
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-source",
+                "17",
+                "-target",
+                "17"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "net.aichler.jupiter.api.JupiterFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Amazon Corretto\\jdk11.0.13_8",
+                "options": [
+                    "-Duser.dir=C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

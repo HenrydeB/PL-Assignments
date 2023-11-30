@@ -1,0 +1,56 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 22 products, 10 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/java/com/craftinginterpreters/lox/Scanner.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Token.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Interpreter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Expr.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Lox.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/RuntimeError.java, ${BASE}/src/main/java/com/craftinginterpreters/tool/GenerateAst.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/AstPrinter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/TokenType.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Parser.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/java/com/craftinginterpreters/lox/AstPrinter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Expr.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Parser.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Scanner.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/TokenType.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Interpreter.java), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/java/com/craftinginterpreters/lox/Scanner.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Interpreter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Expr.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/AstPrinter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/TokenType.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Parser.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.craftinginterpreters.lox.Expr, com.craftinginterpreters.lox.Scanner, com.craftinginterpreters.lox.TokenType, com.craftinginterpreters.lox.Interpreter, com.craftinginterpreters.lox.Parser, com.craftinginterpreters.lox.Parser.ParseError, com.craftinginterpreters.lox.Expr.Unary, com.craftinginterpreters.lox.Expr.Literal, com.craftinginterpreters.lox.AstPrinter, com.craftinginterpreters.lox.Expr.Visitor, com.craftinginterpreters.lox.Expr.Binary, com.craftinginterpreters.lox.Expr.Grouping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.craftinginterpreters.lox.Expr, com.craftinginterpreters.lox.Scanner, com.craftinginterpreters.lox.TokenType, com.craftinginterpreters.lox.Interpreter, com.craftinginterpreters.lox.Parser, com.craftinginterpreters.lox.Parser.ParseError, com.craftinginterpreters.lox.Expr.Unary, com.craftinginterpreters.lox.Expr.Literal, com.craftinginterpreters.lox.AstPrinter, com.craftinginterpreters.lox.Expr.Visitor, com.craftinginterpreters.lox.Expr.Binary, com.craftinginterpreters.lox.Expr.Grouping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/java/com/craftinginterpreters/lox/Scanner.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Interpreter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Expr.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/AstPrinter.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/TokenType.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Parser.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.craftinginterpreters.lox.Expr, com.craftinginterpreters.lox.Scanner, com.craftinginterpreters.lox.TokenType, com.craftinginterpreters.lox.Interpreter, com.craftinginterpreters.lox.Parser, com.craftinginterpreters.lox.Parser.ParseError, com.craftinginterpreters.lox.Expr.Unary, com.craftinginterpreters.lox.Expr.Literal, com.craftinginterpreters.lox.AstPrinter, com.craftinginterpreters.lox.Expr.Visitor, com.craftinginterpreters.lox.Expr.Binary, com.craftinginterpreters.lox.Expr.Grouping[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.craftinginterpreters.lox.Expr.Unary by com.craftinginterpreters.lox.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.craftinginterpreters.lox.Expr.Literal by com.craftinginterpreters.lox.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.craftinginterpreters.lox.Expr.Binary by com.craftinginterpreters.lox.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.craftinginterpreters.lox.Expr.Grouping by com.craftinginterpreters.lox.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 10 Java sources to C:\Users\henry\source\repos\ProgrammingLanguages\chap07_evaluating\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@3799f082 directly...[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 1.2790657 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Parser[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr$Ternary[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Parser$1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr$Unary[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.tool.GenerateAst$PastryVisitor[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.RuntimeError[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Token[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.TokenType[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Lox[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr$Grouping[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.tool.GenerateAst[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.tool.GenerateAst$Pastry[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.AstPrinter[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.tool.GenerateAst$Cruller[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Interpreter[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr$Visitor[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.tool.GenerateAst$Beignet[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr$Literal[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Parser$ParseError[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Scanner[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Interpreter$1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.craftinginterpreters.lox.Expr$Binary[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.2691989 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 1.5696244 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

@@ -1,0 +1,10 @@
+- figure out how to tell the difference between a class call and a static
+  method
+	- one way to do this is to check scoping => How does Lox handle class scoping?
+	- we also need to look out for nested classes
+	- an issue we will have is the main difference between class decl and
+		static methods is the parenthesis for arguments for static methods
+	- He explains we can use metaclasses, which is a class whose instances are
+		also classes
+	- I think we can use this for when we want to search for the method?
+- need to add a new FunctionType

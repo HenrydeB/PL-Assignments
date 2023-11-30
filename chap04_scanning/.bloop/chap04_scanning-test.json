@@ -1,0 +1,337 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "chap04_scanning-test",
+        "directory": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning",
+        "workspaceDir": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning",
+        "sources": [
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\test\\scala",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\test\\scala-2.12",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\test\\scala-2",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\test\\java",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "chap04_scanning"
+        ],
+        "classpath": [
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\.bloop\\chap04_scanning\\scala-2.12\\classes",
+            "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\aichler\\jupiter-interface\\0.11.1\\jupiter-interface-0.11.1.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-launcher\\1.9.1\\junit-platform-launcher-1.9.1.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-engine\\5.9.1\\junit-jupiter-engine-5.9.1.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-engine\\1.9.1\\junit-platform-engine-1.9.1.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-api\\5.9.1\\junit-jupiter-api-5.9.1.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar",
+            "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-commons\\1.9.1\\junit-platform-commons-1.9.1.jar"
+        ],
+        "out": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\.bloop\\chap04_scanning",
+        "classesDir": "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\.bloop\\chap04_scanning\\scala-2.12\\test-classes",
+        "resources": [
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\src\\test\\resources",
+            "C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-compiler.jar",
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-reflect.jar",
+                "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-source",
+                "17",
+                "-target",
+                "17"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "net.aichler.jupiter.api.JupiterFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Amazon Corretto\\jdk11.0.13_8",
+                "options": [
+                    "-Duser.dir=C:\\Users\\henry\\source\\repos\\ProgrammingLanguages\\chap04_scanning"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\henry\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.aichler",
+                    "name": "jupiter-interface",
+                    "version": "0.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jupiter-interface",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\aichler\\jupiter-interface\\0.11.1\\jupiter-interface-0.11.1.jar"
+                        },
+                        {
+                            "name": "jupiter-interface",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\aichler\\jupiter-interface\\0.11.1\\jupiter-interface-0.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-launcher",
+                    "version": "1.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-launcher",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-launcher\\1.9.1\\junit-platform-launcher-1.9.1.jar"
+                        },
+                        {
+                            "name": "junit-platform-launcher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-launcher\\1.9.1\\junit-platform-launcher-1.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-engine\\5.9.1\\junit-jupiter-engine-5.9.1.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-engine\\5.9.1\\junit-jupiter-engine-5.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-engine\\1.9.1\\junit-platform-engine-1.9.1.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-engine\\1.9.1\\junit-platform-engine-1.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-api\\5.9.1\\junit-jupiter-api-5.9.1.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-api\\5.9.1\\junit-jupiter-api-5.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-commons\\1.9.1\\junit-platform-commons-1.9.1.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\henry\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-commons\\1.9.1\\junit-platform-commons-1.9.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

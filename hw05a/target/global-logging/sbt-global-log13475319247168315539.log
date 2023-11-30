@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(44586c80-d979-4568-b35a-4eba0971a6ec), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\henry\source\repos\ProgrammingLanguages\hw05a\target\scala-3.3.1\classes ...[0m

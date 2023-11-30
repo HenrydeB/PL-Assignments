@@ -1,0 +1,15 @@
+fun makeCounter(){
+  fun result(){
+    var x = 0;
+    x = x + 1;
+    return x;
+  }
+  return result;
+}
+
+var c1 = makeCounter();
+var c2 = makeCounter();
+print c1();
+print c1();
+print c2();
+print c2();

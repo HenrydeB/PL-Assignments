@@ -1,0 +1,132 @@
+2023.09.10 15:39:49 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning' for client Visual Studio Code 1.82.0.
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.metals\metals (H2 2.1)
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 10, 2023 3:39:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 10, 2023 3:39:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 10, 2023 3:39:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 10, 2023 3:39:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 10, 2023 3:39:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.022s)
+2023.09.10 15:39:50 INFO  time: initialize in 0.75s
+2023.09.10 15:39:51 WARN  Build server is not auto-connectable.
+2023.09.10 15:39:54 INFO  running 'C:\Program Files\Amazon Corretto\jdk11.0.13_8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.4 -jar C:\Users\henry\AppData\Local\Temp\metals13763328563327877252\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.09.10 15:39:54 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.4  (this may take some time)...
+2023.09.10 15:40:00 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2023.09.10 15:40:02 INFO  [info] Updated file C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\build.properties: set sbt.version to 1.9.4
+2023.09.10 15:40:02 INFO  [info] welcome to sbt 1.9.4 (Amazon.com Inc. Java 11.0.13)
+2023.09.10 15:40:05 INFO  [info] loading settings for project chap04_scanning-build-build-build from metals.sbt ...
+2023.09.10 15:40:06 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\project\project
+2023.09.10 15:40:09 INFO  [info] loading settings for project chap04_scanning-build-build from metals.sbt ...
+2023.09.10 15:40:09 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\project
+2023.09.10 15:40:15 INFO  [success] Generated .bloop\chap04_scanning-build-build.json
+2023.09.10 15:40:15 INFO  [success] Total time: 5 s, completed Sep 10, 2023, 3:40:15 PM
+2023.09.10 15:40:16 INFO  [info] loading settings for project chap04_scanning-build from metals.sbt,plugins.sbt ...
+2023.09.10 15:40:16 INFO  [info] loading project definition from C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project
+2023.09.10 15:40:18 INFO  [success] Generated .bloop\chap04_scanning-build.json
+2023.09.10 15:40:18 INFO  [success] Total time: 2 s, completed Sep 10, 2023, 3:40:18 PM
+2023.09.10 15:40:20 INFO  [info] loading settings for project chap04_scanning from build.sbt ...
+2023.09.10 15:40:20 INFO  [info] set current project to jlox (in build file:/C:/Users/henry/source/repos/ProgrammingLanguages/chap04_scanning/)
+2023.09.10 15:40:20 INFO  [success] Generated .bloop\chap04_scanning-test.json
+2023.09.10 15:40:20 INFO  [success] Generated .bloop\chap04_scanning.json
+2023.09.10 15:40:20 INFO  [success] Total time: 0 s, completed Sep 10, 2023, 3:40:21 PM
+2023.09.10 15:40:21 INFO  time: ran 'sbt bloopInstall' in 27s
+2023.09.10 15:40:21 INFO  Attempting to connect to the build server...
+2023.09.10 15:40:21 INFO  Setting up current java home C:\Program Files\Amazon Corretto\jdk11.0.13_8 in C:\Users\henry\.bloop\bloop.json
+2023.09.10 15:40:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.10 15:40:32 INFO  Attempting to connect to the build server...
+2023.09.10 15:40:32 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.09.10 15:40:32 INFO  Attempting to connect to the build server...
+2023.09.10 15:40:32 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.09.10 15:40:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.10 15:40:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.10 15:40:33 INFO  time: Connected to build server in 11s
+2023.09.10 15:40:33 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.10 15:40:33 INFO  time: Imported build in 0.26s
+2023.09.10 15:40:42 INFO  time: indexed workspace in 9.49s
+2023.09.14 00:43:48 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning' for client Visual Studio Code 1.82.0.
+Sep 14, 2023 12:43:48 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 14, 2023 12:43:48 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 14, 2023 12:43:48 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 14, 2023 12:43:52 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.metals\metals (H2 2.1)
+Sep 14, 2023 12:43:52 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.034s)
+Sep 14, 2023 12:43:52 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 14, 2023 12:43:52 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.14 00:43:52 INFO  time: initialize in 4.13s
+2023.09.14 00:43:54 INFO  Attempting to connect to the build server...
+2023.09.14 00:43:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.09.14 00:43:54 INFO  skipping build import with status 'Installed'
+2023.09.14 00:44:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 00:44:05 INFO  Attempting to connect to the build server...
+2023.09.14 00:44:05 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.09.14 00:44:05 INFO  Attempting to connect to the build server...
+2023.09.14 00:44:05 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.09.14 00:44:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 00:44:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 00:44:06 INFO  time: Connected to build server in 12s
+2023.09.14 00:44:06 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.14 00:44:06 INFO  time: Imported build in 0.51s
+2023.09.14 00:44:14 INFO  time: indexed workspace in 7.35s
+2023.09.16 15:06:56 INFO  Shutting down server
+2023.09.16 15:06:56 INFO  shutting down Metals
+2023.09.16 15:06:56 INFO  Exiting server
+2023.10.17 15:44:51 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning' for client Visual Studio Code 1.83.1.
+Oct 17, 2023 3:44:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 17, 2023 3:44:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 17, 2023 3:44:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 17, 2023 3:44:52 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.metals\metals (H2 2.1)
+Oct 17, 2023 3:44:52 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.036s)
+Oct 17, 2023 3:44:52 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 17, 2023 3:44:52 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.17 15:44:52 INFO  time: initialize in 0.86s
+2023.10.17 15:44:54 INFO  Attempting to connect to the build server...
+2023.10.17 15:44:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.17 15:44:54 INFO  skipping build import with status 'Installed'
+2023.10.17 15:44:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.17 15:44:54 INFO  Attempting to connect to the build server...
+2023.10.17 15:44:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.17 15:44:54 INFO  Attempting to connect to the build server...
+2023.10.17 15:44:54 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk11.0.13_8 defined at C:\Users\henry\.bloop\bloop.json
+2023.10.17 15:44:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.17 15:44:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\henry\source\repos\ProgrammingLanguages\chap04_scanning\project\project\.metals\bsp.trace.json or C:\Users\henry\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.17 15:44:55 INFO  time: Connected to build server in 0.96s
+2023.10.17 15:44:55 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.17 15:44:55 INFO  time: Imported build in 0.14s
+2023.10.17 15:45:01 INFO  time: indexed workspace in 5.84s
+2023.10.17 15:48:14 INFO  Shutting down server
+2023.10.17 15:48:14 INFO  shutting down Metals
+2023.10.17 15:48:14 INFO  Shut down connection with build server.
+2023.10.17 15:48:14 INFO  Shut down connection with build server.
+2023.10.17 15:48:14 INFO  Shut down connection with build server.
+2023.10.17 15:48:14 INFO  Exiting server

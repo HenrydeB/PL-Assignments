@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly fp3tests, Some(66cbbce9-338c-4278-b6a7-2fe79dc6b9e7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\henry\source\repos\ProgrammingLanguages\scala-hw\target\scala-3.3.1\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\henry\source\repos\ProgrammingLanguages\scala-hw\src\main\scala\fp3.scala:141:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m141 |[0m        [33mcase[0m Nil => List(())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                         ^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                         Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                         Required: (Int, X)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\henry\source\repos\ProgrammingLanguages\scala-hw\src\main\scala\fp3.scala:143:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m143 |[0m        [33mcase[0m head::tail => [33mif[0m x == xs.head [33mthen[0m helper(counter+[31m1[0m, tail) [33melse[0m head::helper([31m0[0m, tail)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                              ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                              Not found: x[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\henry\source\repos\ProgrammingLanguages\scala-hw\src\main\scala\fp3.scala:143:77 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m143 |[0m        [33mcase[0m head::tail => [33mif[0m x == xs.head [33mthen[0m helper(counter+[31m1[0m, tail) [33melse[0m head::helper([31m0[0m, tail)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                             ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Found:    (head : X)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Required: (Int, X)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\henry\source\repos\ProgrammingLanguages\scala-hw\src\main\scala\fp3.scala:143:98 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m143 |[0m        [33mcase[0m head::tail => [33mif[0m x == xs.head [33mthen[0m helper(counter+[31m1[0m, tail) [33melse[0m head::helper([31m0[0m, tail)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                                                  ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                              Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                              Required: List[(Int, X)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Nov 11, 2023, 9:05:41 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,7 @@
+var f = fun (x) { return x + 1;};
+print (f(1));
+print (fun (x) { return x + 1;}) (1);
+print fun (x) { return x + 1;} (1);
+print fun (x) { return x + 1;};
+fun (x) { print x; }(1);
+fun() { };

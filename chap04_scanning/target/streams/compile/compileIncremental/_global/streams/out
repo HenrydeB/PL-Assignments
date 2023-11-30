@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 4 products, 4 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/java/com/craftinginterpreters/lox/Lox.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Scanner.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/Token.java, ${BASE}/src/main/java/com/craftinginterpreters/lox/TokenType.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

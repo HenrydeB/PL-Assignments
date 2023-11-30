@@ -1,0 +1,18 @@
+class Math {
+  class square(n) {
+    return n * n;
+  }
+
+  class math(x){
+    var y = 24;
+    return x+24;
+  }
+
+  run(){
+	print this.square(3);
+  }
+
+}
+
+
+print Math.math(3);

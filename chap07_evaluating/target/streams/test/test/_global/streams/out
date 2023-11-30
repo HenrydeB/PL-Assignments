@@ -1,0 +1,117 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.craftinginterpreters.lox.CommaTest, net.aichler.jupiter.api.JupiterTestFingerprint@7ceff5ce, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.craftinginterpreters.lox.TernaryTest, net.aichler.jupiter.api.JupiterTestFingerprint@1a828b8a, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.craftinginterpreters.lox.CombinedTest, net.aichler.jupiter.api.JupiterTestFingerprint@6cfd976b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started (JUnit Jupiter)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mCommaTest[0m[36m#simpleBoolean()[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mCommaTest[0m[36m#simpleMixed()[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, [0m[34m2 total, [0m[34m0.168s[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started (JUnit Jupiter)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mCombinedTest[0m[36m#precedence1()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mCombinedTest[0m.[31mprecedence1[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(, (?: true 2.0 3.0) (?: false 5.0 6.0))> but was: <true>, took 0.06s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.CombinedTest.doTest([35mCombinedTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.CombinedTest.precedence1([35mCombinedTest.java[0m:[33m20[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, [0m[34m1 total, [0m[34m0.168s[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started (JUnit Jupiter)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#simpleFalse()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31msimpleFalse[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: (== 1.0 3.0) 4.0 5.0)> but was: <(== 1.0 3.0)>, took 0.06s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.simpleFalse([35mTernaryTest.java[0m:[33m20[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#simpleTrue()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31msimpleTrue[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: (!= 1.0 3.0) 4.0 5.0)> but was: <(!= 1.0 3.0)>, took 0.002s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.simpleTrue([35mTernaryTest.java[0m:[33m26[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#simpleString()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31msimpleString[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: false a b)> but was: <false>, took 0.002s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.simpleString([35mTernaryTest.java[0m:[33m33[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#associativity1()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31massociativity1[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: false a (?: true b c))> but was: <false>, took 0.002s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.associativity1([35mTernaryTest.java[0m:[33m40[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#associativity2()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31massociativity2[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: true (?: true a b) c)> but was: <true>, took 0.002s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.associativity2([35mTernaryTest.java[0m:[33m46[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#associativity3()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31massociativity3[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: false (?: true a b) (?: true c d))> but was: <false>, took 0.002s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.associativity3([35mTernaryTest.java[0m:[33m52[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m[36m#precedence1()[0m started[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0m[line 1] Error: Unexpected character.[0m
+[0m[[0m[31merror[0m] [0m[0mTest com.craftinginterpreters.lox.[33mTernaryTest[0m.[31mprecedence1[0m failed: org.opentest4j.[31mAssertionFailedError[0m: expected: <(?: (== false true) true (== b c))> but was: <(== false true)>, took 0.001s[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.doTest([35mTernaryTest.java[0m:[33m14[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at com.craftinginterpreters.lox.TernaryTest.precedence1([35mTernaryTest.java[0m:[33m58[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m7 failed[0m[34m, [0m[34m0 ignored[0m[34m, [0m[34m7 total, [0m[34m0.179s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for Jupiter not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 10, Failed 8, Errors 0, Passed 2[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.craftinginterpreters.lox.CommaTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.craftinginterpreters.lox.CombinedTest[0m
+[0m[[0m[31merror[0m] [0m[0m	com.craftinginterpreters.lox.TernaryTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
